@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../lib/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Đăng Nhập</title>
+</head>
+<body>
+    <header class="head-login">
+        <div id="container">
+            <div class="logo">
+                <img src="../images/5me.onl.svg" alt="" class="logo-sme">
+            </div>
+            <div class="menu-head">
+                <ul class="menu-list">
+                    <li class="icon-head">
+                        <img src="../images/Vector.svg" alt="" class="icon">
+                        <a href="#">(+1) 514 697 4413</a>
+                    </li>
+                    <li class="icon-head">
+                        <img src="../images/email.svg" alt="" class="icon">
+                        <a href="#">contact@newgenpharma.com</a>
+                    </li>
+                    <li class="icon-head">
+                        <img src="../images/gach.svg" alt="" class="">
+                    </li>
+                    <li class="icon-head">
+                        <img src="../images/fb.svg" alt="" class="fb">
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    
+    <div class="login">
+        <div class="people">
+            <img src="../images/Frame 3.png" alt="" class="img-people">
+        </div>
+        <div class="form">
+            <h2>Đăng Nhập</h2>
+            <div class="img"><img src="../images/ke-ke.svg" alt=""></div>
+            <div class="input-form">
+                <p>Bạn Chưa Có Tài Khoản? <a href="registration.html">Tạo tài khoản</a></p>
+                <form action="">
+                    <div class="input-form-text">
+                        <span>Email / Tên Đăng Nhập</span>
+                        <input type="text" name="" placeholder="toan.thien@example.com">
+                    </div>
+                    <div class="input-password">
+                        <span>Mật Khẩu</span>
+                        <input type="password" name="" required id="ipnPassword">
+                        <span class="show-btn"><i class="fas fa-eye"></i></span>
+                    </div>
+                    
+                    <div class="nho-dang-nhap">
+                        <label class="check-title">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark">Lưu lại</span>
+                        </label> 
+                        
+                        <div class="login-col-right">
+                            <a href="">Quên mật khẩu ?</a>
+                        </div>
+                    </div>
+                    <div class="submit-form">
+                        <input type="submit" value="Đăng Nhập">
+                    </div>
+                    <div class="footer">
+                        <hr><p>Hoặc</p><hr>
+                    </div>
+                
+                    <button class="login-footer">
+                        <div class="login-fb">
+                         <img src="../images/Rectangle 469.svg" alt="" class="icon-footer">
+                        <p>Đăng Nhập Bằng Facebook</p>
+                    </div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        Copyright @ 5me.onl. All Reserved
+    </div>
+        <script>
+        const passField = document.querySelector('#ipnPassword');
+        const showBtn = document.querySelector(".show-btn");
+      showBtn.onclick = (()=>{
+        if(passField.type === "password"){
+          passField.type = "text";
+          showBtn.classList.add("hide-btn");
+        }else{
+          passField.type = "password";
+          showBtn.classList.remove("hide-btn");
+        }
+      });
+        </script>
+    
+</body>
+</html>
