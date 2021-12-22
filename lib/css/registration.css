@@ -37,8 +37,8 @@
 .in-code{
     color: #FE616B;
     position: absolute;
-    right: 35px;
-    top: 417px;
+    right: 15px;
+    top: 43px;
     font-weight: 600;
 }
 .input-form input {
@@ -49,8 +49,311 @@
     padding: 12px 12px;
     position: relative;
 }
-
+.submit-form input:hover {
+    background: #f5a9b4;
+    color: #fe616b;
+}
 .icon-head a:hover {
-    color: black;
+    color:#fe616b;
     text-decoration: none;
+}
+i.fas.fa-eye {
+    right: 8px;
+    position: absolute;
+    top: 45px;
+    color: #FE616B;
+    width: 24px;
+    FONT-VARIANT: JIS04;
+}
+.input-form-text input {
+    position: relative;
+}
+.input-form-text {
+    padding-bottom: 16px;
+    position: relative;
+}
+
+.login-footer:hover {
+    background: #fe747d;
+    /* color: #fff; */
+}
+.span {
+    width: 1px;
+    height: 20px;
+    left: 1295px;
+    top: 44px;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 0 27px;
+}
+
+
+@media (min-width : 720px) and (max-width : 960px) {
+    .menu-list {
+        display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 0px 10px 0;
+    }
+    ul, ol, li {
+        list-style: none;
+        display: flex;
+        padding: 9px;
+        align-items: center;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    #container {
+        flex-direction: column;
+    }
+    .form {
+        margin: 20px auto;
+    padding: 20px 34px;
+    }
+    .form h2 {
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 600;
+    }
+    .logo-sme {
+        width: 200px;
+        height: 61px;
+        margin: 0;
+    }
+    .img {
+        margin-bottom: 19px;
+    }
+    .input-form p {
+        font-size: 14px;
+    }
+    label {
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .input-form input {
+        height: 38px;
+    }
+    .check-title {
+        display: flex;
+        margin: 0;
+    }
+    .nho-dang-nhap {
+        align-items: center;
+        padding: 0;
+    }
+    .check-title {
+        align-items: center;
+    }
+    .login-col-right a {
+        font-weight: 600;
+        font-size: 13px;
+    }
+    i.fas.fa-eye {
+        top: 40px;
+    }
+    .in-code {
+        top: 38px;
+    }
+}
+
+
+@media (min-width : 576px) and (max-width : 720px) {
+    li.icon-head {
+        text-align: center;
+        display: flex;
+
+    }
+    .menu-list {
+        display: block;
+        justify-content: flex-end;
+        margin: 0px;
+        padding: 10px 0px 10px 0;
+    }
+    .logo-sme {
+        width: 180px;
+        height: 41px;
+        margin: 0;
+    }
+    .form{
+        margin: 10px 110PX;
+        padding: 20px 24px;
+    }
+    .login-fb p {
+        padding: 0;  
+    }
+    label.check-title input {
+        width: 15px;
+        height: 15px;
+    }
+
+    .input-form input {
+        height: 30px;
+    }
+    .input-form-text {
+        padding-bottom: 10px;
+    }
+    .nho-dang-nhap {
+        padding: 0;
+    }
+    .check-title {
+        margin: 0;
+        align-items: center;
+    }
+    .submit-form input {
+        font-size: 14px;
+        padding: 0;
+    }
+    .login-col-right a {
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .img {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .form h2 {
+        font-size: 20px;
+        line-height: 12px;
+        font-weight: 600;
+    }
+
+    .img img {
+        height: 10px;
+    }
+
+    label {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .logo {
+        text-align: center;
+    }
+    #container {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        justify-content: space-between;
+        padding: 0 auto;
+        padding: 0 80px;
+    }
+    .input-form p {
+        font-size: 12px;
+    }
+    a.fb-ic {
+        display: block;
+    }
+    ul, ol, li {
+        list-style: none;
+        padding: 2px;
+    }
+    .span {
+        display: none;
+    }
+    .copyright {
+        margin: 50px auto 24px;
+    font-size: 12px;
+    }
+    i.fas.fa-eye {
+        top: 32px;
+    }
+    .in-code {
+        top: 30px;
+    }
+}
+
+
+@media (min-width :415px) and (max-width :  576px) {
+    #container {
+        flex-direction: column;
+    }
+    .menu-list {
+        flex-direction: column;
+    }
+    li.icon-head {
+        display: flex;
+        font-size: 14px;
+    }
+    a.fb-ic {
+        display: block;
+    }
+    .span {
+        width: 0;
+        height: 0px; 
+    }
+    ul, ol, li {
+        padding: 2px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .logo-sme {
+        margin: 0;
+        width: 160px;
+        height: 40px;
+    }
+    li.icon-head {
+        display: flex;
+        align-items: center;
+    }
+    .form {
+        margin: 30px auto;   
+        padding: 20px 34px;
+    }
+    .form h2 {
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 600;
+    }
+    .img {
+        margin-bottom: 19px;
+    }
+    .input-form p {
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    label {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 10px;
+    }
+    .nho-dang-nhap {
+        padding: 0;
+        align-items: center;
+    }
+    .check-title {
+        margin: 0;
+        align-items: center;
+    }
+    .login-col-right a {
+        font-size: 13px;
+    }
+    .input-form input {
+        height: 38px;
+    }
+    .submit-form {
+        padding: 0;
+    }
+    .input-form-text {
+        padding-bottom: 8px;
+    }
+    .login-fb p {
+        padding: 10px 0px 10px 0px;
+    }
+    .check-title input {
+        width: 15px;
+    }
+    .copyright {
+        margin: 50px auto 24px;
+        font-size: 12px;
+    }
+
+
+    i.fas.fa-eye {
+        top: 35px;
+    }
+    .in-code {
+        top: 33px;  
+    }
 }
