@@ -603,3 +603,21 @@ a.emotion-title {
     color: black;
     text-decoration: none;
 }
+
+.vuong-profile {
+    width: 20px;
+    height: 20px;
+    margin-top: 33px;
+}
+a.cham-profile {
+    position: relative;
+}
+.cham-profile::after {
+    content: "";
+    background: url(../../images/cham-profile.svg);
+    position: absolute;
+    right: 5px;
+    top: -10px;
+    height: 8px;
+    width: 8px;
+}
