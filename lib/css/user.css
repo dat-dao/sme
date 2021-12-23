@@ -621,3 +621,9 @@ a.cham-profile {
     height: 8px;
     width: 8px;
 }
+p.chat-time {
+    margin-bottom: 4px;
+}
+p.chat-name {
+    margin-bottom: 4px;
+}
