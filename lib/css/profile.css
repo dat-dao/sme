@@ -685,7 +685,20 @@ a.emotion-title {
 }
 
 
-
+button.btn-buy {
+    border-radius: 8px;
+    background: linear-gradient( 
+180deg, #FE858D 0%, #FE616B 100%);
+    width: 90px;
+    height: 44px;
+    font-size: 16px;
+    color: #ffff;
+    font-weight: 600;
+    margin-right: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
 
 .home-page {
     display: flex;
@@ -1150,4 +1163,226 @@ img.top-vuong {
     height: 16px;
     bottom: 0;
     left: 17px;
+}
+
+
+
+
+.modal-main{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(0 0 0 / 70%);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container{
+    background: #FFFFFF;
+    border-radius: 24px;
+    /* color: #000000; */
+    max-width: 628px;
+    width: 100%;
+}
+
+.modal-ava{ 
+    background: #FE616B;
+}
+
+h1.modal-donate {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.024em;
+    color: rgba(101, 1, 7, 0.87);
+}
+
+
+element.style {
+}
+h1.modal-donate a {
+    color: #650107;
+    width: 20px;
+    height: 20px;
+    font-weight: 500;
+}
+
+h2.modal-name__head {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.024em;
+    color: #fff;
+}
+.modal-name__inf {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.024em;
+    color: #FFFFFF;
+    opacity: 0.72;
+}
+
+
+.modal-ava {
+    background: #FE616B;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.modal-profile {
+    text-align: center;
+    width: 100%;
+    margin: 24px;
+
+}
+
+.modal-img img {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 8px;
+    width: 96px;
+}
+.dolar-donate img {
+    position: absolute;
+    bottom: 55%;
+    left: 39%;
+}
+
+
+.modal-body {
+    padding: 0;
+    margin: 24px;
+}
+.modal-price {
+    display: flex;
+    justify-content: space-between;
+}
+.price-title h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: #650107;
+}
+
+.profile-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.profile-price h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.6);
+}
+.profile-price h3 {
+    display: flex;
+    padding-right: 12px;
+    padding-left: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    color: #FE616B;
+}
+
+
+.price-money h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    letter-spacing: 0.012em;
+    color: #650107;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.price-money p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 10px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.012em;
+    color: #650107;
+    opacity: 0.6;
+    margin: 0;
+}
+
+hr {
+    width: 120px;
+    border: 0;
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-right: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+textarea#text {
+    width: 580px;
+    height: 96px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    resize: none;
+    padding: 16px 10px;
+}
+
+textarea#text::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.32);
+}
+a.modal-btn {
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+    box-shadow: 0px 6px 24px rgb(254 97 107 / 16%);
+    border-radius: 8px;
+    float: right;
+    padding: 10px 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+a.modal-btn:hover{
+    background:#FE616B;
+}
+
+.bg-active{
+    display: flex;
 }
