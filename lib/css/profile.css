@@ -376,13 +376,11 @@ img.icon-st {
 .box-content {
     margin-top: 31px;
     display: flex;
+    padding-bottom: 72px;
 }
 .middle-col {
     width: 65%;
 }
-
-
-
 .left-box-img {
     border: 1px solid;
     border-radius: 24px;
@@ -402,7 +400,6 @@ img.icon-st {
     padding: 8px 16px;
     position: relative;
 }
-
 .left-move{
     display: flex;
     color: rgba(101, 1, 7, 0.38);
@@ -428,19 +425,12 @@ img.icon-st {
     font-size: 16px;
     line-height: 24px;
 }
-
-.middle-col{
-    
-}
-
 .middle-col__1 {
     background-color: #FEFEFE;
     border-radius: 14px;
     margin-bottom: 32px;
 }
-
 /* Phải  */
-
 .right-col{
     width: 25%;
     padding-left: 20px;
@@ -482,7 +472,6 @@ img.icon-st {
     line-height: 20px;
     margin: auto;
 }
-
 .chat-input input{
     width: 80%;
     border: none;
@@ -490,10 +479,7 @@ img.icon-st {
 }
 /* .chat-input__pl:focus{
     outline: none;
-
-
 } */
-
 p.chat-time {
     color: rgba(101, 1, 7, 0.38);
     font-family: Montserrat;
@@ -520,7 +506,6 @@ input::placeholder {
     letter-spacing: 0.012em;
     color: rgba(101, 1, 7, 0.32);
 }
-
 button {
     border: none;
     border-radius: 50%;
@@ -529,7 +514,6 @@ button {
     width: 40px;
     height: 40px;
 }
-
 .middle-head {
     padding: 0px 24px;
     padding-top: 24px;
@@ -578,12 +562,10 @@ img.ava-img {
 .img-status img {
     width: 100%;
 }
-
 .emoticon{
     display: flex;
     margin-top: 14px;
 }
-
 .emoticon p {
     margin: 0 12px;
     color: rgba(101, 1, 7, 0.6);
@@ -599,7 +581,6 @@ a.emotion-title {
     letter-spacing: 0.012em;
     color: rgba(101, 1, 7, 0.6);
 }
-
 .comment input {
     border: none;
     background: #F5F5F5;
@@ -608,10 +589,6 @@ a.emotion-title {
     margin: 0 0 0 12px;
     padding: 10px 12px;
 }
-.comment input::placeholder{
-   
-}
-
 /* Profile */
 .comment1 {
     display: flex;
@@ -634,8 +611,6 @@ a.emotion-title {
     margin: 0 0 0 12px;
     padding: 10px 12px;
 }
-
-
 .comment {
     display: flex;
     margin: 8px 0;
@@ -667,6 +642,7 @@ a.emotion-title {
    
 }
 .left-content p {
+    padding-left: 3px;
     margin-bottom: 4px;
     font-family: Montserrat;
     font-style: normal;
@@ -683,8 +659,6 @@ a.emotion-title {
     padding-left: 32px;
     width: 100%;
 }
-
-
 button.btn-buy {
     border-radius: 8px;
     background: linear-gradient( 
@@ -699,7 +673,6 @@ button.btn-buy {
     cursor: pointer;
     outline: none;
 }
-
 .home-page {
     display: flex;
     position: absolute;
@@ -707,7 +680,6 @@ button.btn-buy {
     top: 280px;
     padding: 0 32px;
 }
-
 .home-page-head {
     display: flex;
     justify-content: space-between;
@@ -723,7 +695,6 @@ button.btn-buy {
     margin: 0 auto;
     padding-bottom: 70px;
 }
-
 .infomation-main {
     width: 1280px;
     margin: 0 auto;
@@ -744,7 +715,6 @@ button.btn-buy {
     color: #FFFFFF;
     text-decoration: none;
 }
-
 .home-name h2 {
     font-family: Montserrat;
     font-style: normal;
@@ -755,7 +725,6 @@ button.btn-buy {
     color: #FFFFFF;
     margin-bottom: 8px;
 }
-
 .home-btn {
     border: 1px solid;
     border-radius: 10px;
@@ -768,7 +737,6 @@ button.btn-buy {
     padding-right: 8px;
     font-size: 24px;
 }
-
 .home-pice p {
     font-family: Montserrat;
     font-style: normal;
@@ -780,7 +748,6 @@ button.btn-buy {
     margin-bottom: 7px;
     padding-left: 10px;
 }
-
 a.btn-buy {
     background: linear-gradient(
 180deg, #FE858D 0%, #FE616B 100%);
@@ -795,7 +762,6 @@ a.btn-buy {
     padding-top: 5px;    
  
 }
-
 a.btn-buy p {
     padding: 10px 24px;
     font-family: Montserrat;
@@ -807,7 +773,6 @@ a.btn-buy p {
     color: #FFFFFF;
     margin: 0;
 }
-
 a.btn-donate p {
     padding: 10px 24px;
     margin: 0;
@@ -820,7 +785,6 @@ a.btn-donate p {
     color: #FE616B;
     
 }
-
 a.btn-donate {
     border: 1px solid #FE616B;
     border-radius: 8px;
@@ -828,7 +792,6 @@ a.btn-donate {
     margin-bottom: 29px;
     text-decoration: none;
 }
-
 a.btn-chat {
     display: flex;
     border: 0.5px solid #ccc;
@@ -839,7 +802,6 @@ a.btn-chat {
     margin-bottom: 29px;
     text-decoration: none;
 }
-
 a.btn-chat p {
     margin: 0px;
     font-family: Montserrat;
@@ -855,10 +817,6 @@ a.btn-chat img {
     width: 16px;
     height: 16px;
 }
-
-
-
-
 .parameter {
     margin-left: 84px;
     display: flex;
@@ -884,8 +842,6 @@ a.btn-chat img {
 .parameter-title p {
     margin-bottom: 8px;
 }
-
-
 .home-down-pice {
     display: flex;
 }
@@ -895,7 +851,6 @@ a.btn-chat img {
     background: #F2F2F2;
     margin: 7px 20px;
 }
-
 .vuong-profile {
     width: 20px;
     height: 20px;
@@ -913,9 +868,6 @@ a.cham-profile {
     height: 8px;
     width: 8px;
 }
-
-
-
 .h3, h3 {
     font-size: 1.75rem;
     font-family: Montserrat;
@@ -926,7 +878,6 @@ a.cham-profile {
     letter-spacing: 0.012em;
     color: rgba(101, 1, 7, 0.24);
 }
-
 .top-donate {
     display: flex;
     justify-content: space-between;
@@ -941,8 +892,6 @@ a.cham-profile {
 .top-name {
     display: flex;
 }
-
-
 .top-price h4 {
     display: flex;
     margin: 0;
@@ -956,7 +905,6 @@ a.cham-profile {
     color: rgba(101, 1, 7, 0.87);
     padding-top: 3px;
 }
-
 .top-name p {
     font-family: Montserrat;
     font-style: normal;
@@ -1164,10 +1112,6 @@ img.top-vuong {
     bottom: 0;
     left: 17px;
 }
-
-
-
-
 .modal-main{
     position: fixed;
     top: 0;
@@ -1179,7 +1123,6 @@ img.top-vuong {
     align-items: center;
     justify-content: center;
 }
-
 .modal-container{
     background: #FFFFFF;
     border-radius: 24px;
@@ -1204,17 +1147,12 @@ h1.modal-donate {
     letter-spacing: 0.024em;
     color: rgba(101, 1, 7, 0.87);
 }
-
-
-element.style {
-}
 h1.modal-donate a {
     color: #650107;
     width: 20px;
     height: 20px;
     font-weight: 500;
 }
-
 h2.modal-name__head {
     font-family: Montserrat;
     font-style: normal;
@@ -1235,8 +1173,6 @@ h2.modal-name__head {
     color: #FFFFFF;
     opacity: 0.72;
 }
-
-
 .modal-ava {
     background: #FE616B;
     display: flex;
