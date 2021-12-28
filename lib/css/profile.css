@@ -1598,3 +1598,138 @@ h1.h1-time {
 .money-head-left-1 {
     margin-right: 16px;
 }
+
+
+/*  CHAT   */
+
+.chat-body {
+    position: absolute;
+    bottom: 80px;
+}
+.container-chat {
+    padding: 14px 12px;
+    background: #FFFFFF;
+    border-radius: 24px 24px 0px 0px;
+}
+.chat-head {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.modal-chat {
+    display: none;
+    background: #FAFAFA;
+    bottom: 0;
+    position: fixed;
+    right: 120px;
+    width: 367px;
+    height: 488px;
+    border-radius: 24px 24px 0px 0px;
+}
+.chat-name{
+    display: flex;
+    background-color: #FFF;
+    border-radius: 24px 24px 0px 0px;
+}
+.chat-name p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.3px;
+color: #650107;
+margin: 0;
+padding-left: 8px;
+}
+.chat-close button{
+    color: rgba(101, 1, 7, 0.38);
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    text-decoration:none;
+    background: none;
+    padding-right: 17px;
+}
+.chat-close button:focus{
+    outline: none;
+}
+.chat-ft-container{
+    padding: 8px 12px;
+}
+.chat-footer {
+    position: fixed;
+    bottom: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgb(29 68 73 / 8%);
+    border-radius: 1000px;
+    width: 343px;
+}
+
+input.inp-chat {
+    border: none;
+    width: 240px;
+}
+.send-chat{
+    padding-left:10px ;
+}
+
+button.btn-chat {
+    width: 147px;
+    background: #ffff;
+    padding: 10px 24px;
+    border: 1px solid rgba(101, 1, 7, 0.12);
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    color: #650107;
+}
+.btn-chat p{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.btn-chat:focus{
+    outline: none;
+    cursor: pointer;
+}
+.conversation{
+    display: flex;
+}
+.individual{
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+    border-radius: 8px;
+    margin-right: 12px;
+    margin-left: 52px;
+}
+
+.conversation h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.3px;
+color: #FFFFFF;
+padding: 12px;
+margin: 0;
+}
+
+.conversation p{
+    margin: 0;
+    margin-top: 8px;
+}
+
+.individual-2{
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-left: 12px;
+    margin-bottom: 24px;
+    margin-right: 52px;
+}
+.individual-2 h1{
+    color:#650107;
+}
+.bg-chat{
+    display: block;
+}
