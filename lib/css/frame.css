@@ -588,6 +588,7 @@ border: none;
     padding: 24px;
     width: 100%;
     max-width: 628px;
+border-radius: 24px;
 }
 .head-recharge{
 justify-content: space-between;
@@ -613,6 +614,12 @@ justify-content: space-between;
 }
 .inf-recharge{
     display: flex;
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+.title-bank{
+    margin-left: 12px;
 }
 .title-bank h2 {
     font-family: Montserrat;
@@ -623,4 +630,23 @@ line-height: 24px;
 letter-spacing: 0.012em;
 color: rgba(101, 1, 7, 0.87);
 
+}
+
+.title-bank p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.6);
+}
+.inf-recharge:hover{
+    background-color: #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.head-recharge span:hover{
+    cursor: pointer;
+    font-size: 26px;
 }
