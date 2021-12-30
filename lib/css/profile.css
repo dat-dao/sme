@@ -359,7 +359,8 @@ img.icon-st {
     padding: 4px;
 }
 .personal-ava {
-    width: 20%;
+    width: 30%;
+    position: relative;
 }
 .information {
     width: 80%;
@@ -849,9 +850,13 @@ a.btn-chat img {
     margin: 7px 20px;
 }
 .vuong-profile {
-    width: 20px;
-    height: 20px;
-    margin-top: 33px;
+    right: -5px;
+    bottom: 0;
+    position: absolute;
+    border: none;
+}
+.vuong-profile img {
+    border: none;
 }
 a.cham-profile {
     position: relative;
@@ -1732,4 +1737,55 @@ margin: 0;
 }
 .bg-chat{
     display: block;
+}
+
+/* Menu thứ cấp  */
+
+.content-menu {
+
+    position: absolute;
+    top: 70px;
+    display: none;
+   
+}
+.nen {
+    padding-bottom: 30px;
+}
+.triangle {
+    width: 0;
+    position: absolute;
+    height: 0;
+    right: 20px;
+    top: 0px;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    border-bottom: 43px solid #fff;
+}
+.personal-menu{
+    background: #fff;
+    border-radius: 16px;
+    margin: 0px;
+    padding: 20px 24px;
+}
+.menu-title{
+    padding: 0px;
+    margin-bottom: 8px;
+    font-family: Montserrat;
+}
+.menu-title a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.87);
+    text-decoration: none;
+}
+.menu-title a:hover{
+    font-weight: 600;
+}
+.personal:hover .content-menu{
+    display: block;
+    
 }
