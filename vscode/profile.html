@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="../lib/css/profile.css">
+    <link rel="stylesheet" href="../lib/css/base.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
 </head>
@@ -71,7 +72,7 @@
 
                         </div>
                         <ul class="personal-menu">
-                            <li class="menu-title"><a href="">Nạp tiền</a></li>
+                            <li class="menu-title"><a class="recharge-btn">Nạp tiền</a></li>
                             <li class="menu-title"><a href=""> Rút tiền</a></li>
                             <li class="menu-title"><a href="">Lịch sử giao dịch</a></li>
                             <li class="menu-title"><a href="../vscode/frame.html">Cài đặt tài khoản</a></li>
@@ -671,7 +672,84 @@
                 </div>
             </div>
         </div>
+        <div class="recharge">
+            <div class="wraper-recharge">
+                <div class="head-recharge">
+                    <h1>Nạp Tiền Vào 5me.onl </h1>
+                    <span class="x">x</span>
+                </div>
+                <div class="body-recharge">
+                    <div class="content-recharge">
+                        <div class="inf-recharge">
+                            <img src="../images/bank-1.svg" alt="">
+                            <div class="title-bank">
+                                <h2>Chuyển khoản qua ngân hàng <p>Miễn phí. Hỗ trợ 8:30 - 22:00 hàng ngày (trừ chủ nhật và các ngày lễ)</p></h2>
+                            </div>
+                        </div>
+        
+                        <div class="inf-recharge">
+                            <img src="../images/bank-2.svg" alt="">
+                            <div class="title-bank">
+                                <h2>Nạp tiền bằng thẻ cào Player Code <p>Player code</p></h2>
+                            </div>
+                        </div>
+        
+                        <div class="inf-recharge">
+                            <img src="../images/bank-3.svg" alt="">
+                            <div class="title-bank">
+                                <h2>Chuyển khoản qua ngân hàng <p>Miễn phí. Hỗ trợ 8:30 - 22:00 hàng ngày (trừ chủ nhật và các ngày lễ)</p></h2>
+                            </div>
+                        </div>
+        
+                        <div class="inf-recharge">
+                            <img src="../images/bank-4.svg" alt="">
+                            <div class="title-bank">
+                                <h2>Chuyển khoản qua ngân hàng <p>Miễn phí. Hỗ trợ 8:30 - 22:00 hàng ngày (trừ chủ nhật và các ngày lễ)</p></h2>
+                            </div>
+                        </div>
+        
+                        <div class="inf-recharge">
+                            <img src="../images/bank-5.svg" alt="">
+                            <div class="title-bank">
+                                <h2>Chuyển khoản qua ngân hàng <p>Miễn phí. Hỗ trợ 8:30 - 22:00 hàng ngày (trừ chủ nhật và các ngày lễ)</p></h2>
+                            </div>
+                        </div>
+        
+                        <div class="inf-recharge">
+                            <img src="../images/bank-6.svg" alt="">
+                            <div class="title-bank">
+                                <h2>Chuyển khoản qua ngân hàng <p>Miễn phí. Hỗ trợ 8:30 - 22:00 hàng ngày (trừ chủ nhật và các ngày lễ)</p></h2>
+                            </div>
+                        </div>
+        
+                        <div class="inf-recharge">
+                            <img src="../images/bank-7.svg" alt="">
+                            <div class="title-bank">
+                                <h2>Chuyển khoản qua ngân hàng <p>Miễn phí. Hỗ trợ 8:30 - 22:00 hàng ngày (trừ chủ nhật và các ngày lễ)</p></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
 <script src="../lib/js/jquery-3.6.0.min.js"></script>
 <script src="../lib/js/script.js"></script>
+
+<script>
+
+    var rechargeBtn = document.querySelector('.recharge-btn');
+    var rechargeBg = document.querySelector('.recharge');
+    var closebg = document.querySelector('.x')
+    
+    rechargeBtn.addEventListener('click',function(){
+        rechargeBg.classList.add('hide-recharge');
+    });
+    
+    rechargeBg.addEventListener('click',function(){
+        rechargeBg.classList.remove('hide-recharge');
+    });
+    
+    </script>
 </body>
 </html>

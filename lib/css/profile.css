@@ -1789,3 +1789,9 @@ margin: 0;
     display: block;
     
 }
+
+
+/*  */
+.hide-recharge{
+    display: flex;
+}
