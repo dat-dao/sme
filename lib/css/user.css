@@ -756,3 +756,29 @@ p.pos-gold {
     font-size: 16px;
     line-height: 24px;
 }
+
+li.title-menu a {
+    color: #650107;
+    padding-bottom: 38px;
+    position: relative;
+}
+li.title-menu a:hover {
+    color: #FE616B;
+    text-decoration: none;
+    font-weight: 600;
+}
+li.title-menu a:hover::after {
+    width: 50%;
+    transform: translateX(50%);
+ }
+.title-menu a::after {
+    content: "";
+    height: 5px;
+    width: 0px;
+    background: #FE616B;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 8px 8px 0px 0px;
+    transition: all 0.5s ease-in-out;
+}

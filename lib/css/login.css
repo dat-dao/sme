@@ -290,8 +290,8 @@ label {
     color: rgba(101, 1, 7, 0.87);
 }
 .login-footer:hover {
-    background: #fe747d;
-    /* color: #fff; */
+    background: #e9e7e7;
+    cursor: pointer;
 }
 ul,ol,li{
     list-style: none;
@@ -343,8 +343,8 @@ a{
   
 }
 .submit-form input:hover {
-    background: #f5a9b4;
-    color: #fe616b;
+    background: #ec6d80;
+    color: #fff;
 }
 
 
@@ -519,7 +519,7 @@ a{
     color:#650107;
     padding-bottom: 20px;
 }
-.login-fb p{
+.login-fb a{
     font-style: normal;
     color: #650107;
     padding: 10px 100px 10px 80px;

@@ -85,6 +85,27 @@ i.fas.fa-eye {
     background: rgba(255, 255, 255, 0.4);
     margin: 0 27px;
 }
+li.title-menu a {
+    color: #650107;
+    padding-bottom: 38px;
+    position: relative;
+}
+li.title-menu a:hover {
+    color: #FE616B;
+    text-decoration: none;
+    font-weight: 600;
+}
+.title-menu a:after {
+    content: "";
+    height: 5px;
+    width: 0px;
+    background: #FE616B;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 8px 8px 0px 0px;
+    transition: all 0.5s ease-in-out;
+}
 
 
 @media (min-width : 720px) and (max-width : 960px) {
