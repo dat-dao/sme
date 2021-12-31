@@ -1,0 +1,273 @@
+.container{
+    display: flex;
+     width: 1310px;
+     max-width: 100%;
+     margin: 0px auto;
+     padding: 0;
+     border-radius: 24px;
+     justify-content: end;
+ }
+ .header{
+     display: flex;
+     justify-content: space-between;
+     background-color: #FFFFFF;
+     margin: 15px  0px;
+     width: 100%;
+     padding: 0 15px;
+ }
+ .header-logo img {
+     width: 167px;
+     height: 51px;
+ }
+ .header-logo {
+     width: 20%;
+ }
+ .header-menu{
+     width: 50%;
+     padding: 10px;
+ }
+ a.cham-profile {
+     position: relative;
+ }
+ .cham-profile::after {
+     content: "";
+     background: url(../../images/cham-profile.svg);
+     position: absolute;
+     right: 5px;
+     top: -24px;
+     height: 8px;
+     width: 8px;
+ }
+ ul, ol, li {
+     list-style: none;
+     padding: 0px 16px;
+ }
+ ul.list-menu {
+     display: flex;
+     justify-content: center;
+     padding: 7px 0;
+     margin: 0;
+ }
+ li.title-menu a {
+     color: #650107;
+     padding-bottom: 38px;
+     position: relative;
+ }
+ li.title-menu a::after {
+     content: "";
+     height: 5px;
+     width: 0px;
+     background: #FE616B;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     border-radius:8px 8px 0px 0px;
+    transition: all 0.5s ease-in-out;
+ }
+ li.title-menu a:hover::after {
+     width: 50%;
+     transform: translateX(50%);
+  }
+  
+  li.title-menu a:hover {
+      color: #FE616B;
+      text-decoration:none;
+      font-weight: 600;
+  }
+  .header-tool{
+     width: 30%;
+     display: flex;
+     margin: 0px -30px 0 0px;
+ }
+ .icon-tool {
+     display: flex;
+     width: 40%;
+     justify-content: space-evenly;
+     padding: 7px;
+ }
+ .icon-tool-3 {
+     width: 33.333333%;
+     margin-right: 18px;
+ }
+ img.icon-st {
+     border: 12px solid rgba(254, 97, 107, 0.06);
+     border-radius: 100%;
+ }
+ 
+ .personal {
+     width: 80%;
+     color: black;
+     display: flex;
+     margin-left: 16px;
+ }
+ .personal-ava {
+     width: 35%;
+     position: relative;
+ }
+ .personal-ava img {
+     border: 1px solid #FE616B;
+     border-radius: 50%;
+     padding: 4px;
+ }
+ .vuong-profile {
+     right: 0px;
+     bottom: 0;
+     position: absolute;
+     
+ }
+ .vuong-profile img {
+     border: none;
+ }
+ .information {
+     width: 80%;
+     padding: 5px 0px 5px 5px;
+ }
+ .name {
+     font-style: normal;
+     color: #650107;
+     font-size: 16px;
+     line-height: 24px;
+     font-weight: 500;
+ }
+ .price {
+     color: #FE616B;
+ }
+ 
+ /* Menu thứ cấp  */
+ .body-infomation {
+     width: 65%;
+ }
+ .content-menu {
+ 
+     position: absolute;
+     top: 70px;
+     display: none;
+    
+ }
+ .body-profile{
+     width: 35%;
+ }
+ .nen {
+     padding-bottom: 30px;
+ }
+ .triangle {
+     width: 0;
+     position: absolute;
+     height: 0;
+     right: 20px;
+     top: 0px;
+     border-left: 24px solid transparent;
+     border-right: 24px solid transparent;
+     border-bottom: 43px solid #fff;
+ }
+ .personal-menu{
+     background: #fff;
+     border-radius: 16px;
+     margin: 0px;
+     padding: 20px 24px;
+ }
+ .menu-title{
+     padding: 0px;
+     margin-bottom: 8px;
+     font-family: Montserrat;
+ }
+ .menu-title a{
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: 0.012em;
+     color: rgba(101, 1, 7, 0.87);
+     text-decoration: none;
+ }
+ .menu-title a:hover{
+     font-weight: 600;
+ }
+ .personal:hover .content-menu{
+     display: block;
+     
+ }
+
+ /* Body */
+ .main-body{
+    background: #efefef75;
+    padding-top: 40px;
+ }
+ .body-container {
+    width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+ .body-container h1 {
+    margin: 0;
+    font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.024em;
+color: #650107;
+}
+
+.seach{
+    background: #fff;
+    border-radius: 24px;
+    margin-top: 24px;
+}
+.seach-container{
+    padding: 24px;
+    display: flex;
+}
+.img-seach{
+    width: 48px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+box-shadow: 0px 6px 16px rgba(254, 97, 107, 0.16);
+border-radius: 8px;
+}
+.text-seach{
+    background: #FFFFFF;
+border: 1px solid #E8E8E8;
+box-sizing: border-box;
+border-radius: 8px;
+    max-width: 912px;
+    width: 100%;
+    padding: 16px 12px;
+}
+#select-seach{
+    max-width: 240px;
+    width: 100%;
+}
+.text-seach::placeholder{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.32);   
+}
+.text-seach:focus{
+    outline: none;
+}
+#select-seach {
+    font-family: Montserrat;
+    background: #FFFFFF;
+border: 1px solid #E8E8E8;
+box-sizing: border-box;
+border-radius: 8px;
+padding: 16px 12px;
+margin-left: 16px;
+margin-right: 16px;
+}
+#select-seach option{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em; 
+    color: rgba(101, 1, 7, 0.32);
+}
+
+#select-seach:focus {
+    outline: none;
+
+}
