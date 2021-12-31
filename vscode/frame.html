@@ -208,7 +208,7 @@
                     <div class="body-fix">
                         <p>Mật Khẩu</p>
                         <img src="../images/frame-cham.svg" alt="">
-                        <a href="">Đổi mật khẩu</a>
+                        <button class="body-fix__link" href="">Đổi mật khẩu</button>
                     </div>
     
                     <div class="body-fix-pass">
@@ -337,6 +337,17 @@ rechargeBtn.addEventListener('click',function(){
 
 rechargeBg.addEventListener('click',function(){
     rechargeBg.classList.remove('hide-recharge');
+});
+
+$(document).ready(function(){
+  $(".body-fix__link").click(function(){
+    $(".body-fix-pass").toggle();
+  });
+  
+  $(".body-fix__link").click(function(){
+    $(".body-fix__link").text('Hủy');
+  });
+  
 });
 
 </script>

@@ -454,6 +454,8 @@ background: #fff;
 .body-fix{
     display: flex;
     margin-top: 32px;
+    align-items: center;
+    margin-bottom: 10px;
 }
 .body-fix img {
     margin-left: 12px;
@@ -473,6 +475,20 @@ background: #fff;
 .body-fix-pass{
     margin-top: 12px ;
     margin-bottom: 88px;
+    display: none;
+}
+
+button.body-fix__link {
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: 0.012em;
+    color: #FE616B;
+    cursor: pointer;
+    outline: none;
 }
 .content-fix-pass{
     background: #FFFFFF;
