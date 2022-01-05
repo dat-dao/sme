@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+    <script src="../lib/js/jquery.slim.min.js"></script>
+    <script src="../lib/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="../lib/css/base.css">
     <link rel="stylesheet" href="../lib/css/user.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +40,7 @@
                       </a>
                   </div>
                   <div class="icon-tool-3">
-                      <a href="">
+                      <a href="javascript:void(0)" class="link-chat">
                           <img src="../images/icon-chat.svg" alt="" class="icon-st">
                       </a>
                   </div>
@@ -47,7 +49,6 @@
                           <img src="../images/tb.svg" alt="" class="icon-st">
                       </a>
                   </div>
-
                 </div>
                 <div class="personal">
                     <div class="personal-ava">
@@ -87,7 +88,232 @@
             </div>
         </div>
     </div>
+    <div class="header-1"> 
+        <div class="header-logo">
+            <img src="../images/5me.onl-rp.svg" alt="">
+        </div>
+        <div class="header-tool">
+            <div class="icon-tool">
+              <div class="icon-tool-3">
+                  <a href="">
+                      <img src="../images/rp-seach.svg" alt="" class="icon-st-rp">
+                  </a>
+              </div>
+              <div class="icon-tool-3">
+                  <a href="javascript:void(0)" class="link-chat">
+                      <img src="../images/rp-chat.svg" alt="" class="icon-st-rp">
+                  </a>
+              </div>
+              <div class="icon-tool-3">
+                  <a href="">
+                      <img src="../images/rp-tb.svg" alt="" class="icon-st-rp">
+                  </a>
+              </div>
+
+              <div class="menu-responsive">
+                <a href="javascript:void(0)"  class="menu-profile">
+                    <img src="../images/menu-respon.svg" alt="" class="icon-menu">
+                </a>
+            </div>
+
+            </div>
+                <div class="content-menu">
+                    <div class="nen">
+                        
+                    </div>
+                    <div class="triangle">
+
+                    </div>
+                    <ul class="personal-menu">
+                        <li class="menu-title"><a class="recharge-btn">Nạp tiền</a></li>
+                        <li class="menu-title"><a href=""> Rút tiền</a></li>
+                        <li class="menu-title"><a href="">Lịch sử giao dịch</a></li>
+                        <li class="menu-title"><a href="../vscode/frame.html">Cài đặt tài khoản</a></li>
+                        <li class="menu-title"><a href="">Đăng Xuất</a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+ 
     <div class="content">
+        <div class="rp-all-container">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">TOP Đại Gia</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Trò chuyện</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="rp-left-col">
+                        <div class="rp-left-row-1">
+                            <div class="rp-boder">
+                                <div class="left-letter">
+                                    TOP ĐẠI GIA TUẦN
+                                </div>
+                                <div class="left-box-img">
+                                    <div class="img-st">
+                                        <img src="../images/img-1.svg" alt="">
+                                    </div>
+                                    <div class="img-st-2">
+                                        <img src="../images/top-nu-pink.svg" alt="">
+                                    </div>
+                                    <div class="img-st-3">
+                                        <img src="../images/top-boy-phone.svg" alt="">
+                                    </div>
+                                    <div class="left-move">
+                                        <p>+3</p>
+                                        <div class="move">
+                                            <img src="../images/move.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rp-boder">
+                                <div class="left-letter">
+                                    TOP ĐẠI GIA THÁNG
+                                </div>
+                                <div class="left-box-img">
+                                    <div class="img-st">
+                                        <img src="../images/img-row2-1.svg" alt="">
+                                    </div>
+                                    <div class="img-st-2">
+                                        <img src="../images/img-row2-2.svg" alt="">
+                                    </div>
+                                    <div class="img-st-3">
+                                        <img src="../images/img-row2-3.svg" alt="">
+                                    </div>
+                                    <div class="left-move">
+                                        <p>+3</p>
+                                        <div class="move">
+                                            <img src="../images/move.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rp-boder">
+                                <div class="left-letter">
+                                    TOP ĐẠI GIA 
+                                </div>
+                                <div class="left-box-img">
+                                    <div class="img-st">
+                                        <img src="../images/img-row3-1.svg" alt="">
+                                    </div>
+                                    <div class="img-st-2">
+                                        <img src="../images/img-row2-1.svg" alt="">
+                                    </div>
+                                    <div class="img-st-3">
+                                        <img src="../images/top-nu-pink.svg" alt="">
+                                    </div>
+                                    <div class="left-move">
+                                        <p>+3</p>
+                                        <div class="move">
+                                            <img src="../images/move.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="rp-right-col">
+                        <div class="right-row-3">
+                            <div class="left-letter">
+                                TRÒ CHUYỆN
+                            </div>
+                            <div class="right-box-img">
+                                <div class="chat-box">
+                                    <div class="chat-row1">
+                                        <div class="chat-row1-col1">
+                                            <img src="../images/img-1.svg" alt="LinhTranDang" class="chat-img">
+                                        </div>
+                                        <div class="chat-info">
+                                            <div class="info-row1">
+                                                <p class="chat-name">LinhTranDang</p>
+                                                <p class="chat-time">12 phút trước</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore tempor incididunt ut labore
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="chat-row1">
+                                        <div class="chat-row1-col1">
+                                            <img src="../images/chat-row2.svg" alt="LinhTranDang" class="chat-img">
+                                        </div>
+                                        <div class="chat-info">
+                                            <div class="info-row1">
+                                                <p class="chat-name">LinhTranDang</p>
+                                                <p class="chat-time">8 phút trước</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="chat-row1">
+                                        <div class="chat-row1-col1">
+                                            <img src="../images/chat-row3.svg" alt="LinhTranDang" class="chat-img">
+                                        </div>
+                                        <div class="chat-info">
+                                            <div class="info-row1">
+                                                <p class="chat-name">LinhTranDang</p>
+                                                <p class="chat-time">8 phút trước</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="chat-row1">
+                                        <div class="chat-row1-col1">
+                                            <img src="../images/chat-row4.svg" alt="LinhTranDang" class="chat-img">
+                                        </div>
+                                        <div class="chat-info">
+                                            <div class="info-row1">
+                                                <p class="chat-name">LinhTranDang</p>
+                                                <p class="chat-time">8 phút trước</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="chat-input">
+                                        <input type="" placeholder="Nhập tin nhắn ....." class="chat-input__pl">
+                                        <button>
+                                            <a href="">
+                                                <img src="../images/btn-send.svg" alt="">
+                                            </a>
+                                        </button>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
                 <div class="container">
             <div class="box-content">
                 <div class="left-col">
@@ -367,11 +593,84 @@
         </div>
     
     </div>
+    <div class="modal-chat">
+        <div class="container-chat">
+            <div class="chat-head">
+                <div class="chat-name">
+                    <img src="../images/head-chat.svg" alt="">
+                    <p>Nguyễn Đình Trần Thiện</p>
+                </div>
+                <div class="chat-close">
+                    <button>X</button>
+                </div>
+            </div>
+            <div class="chat-body">
+                <div class="chat-content">
+                    <div class="conversation">
+                        <img src="../images/chat-individual-2.svg" alt="" class="img-individual">
+                        <div class="individual-2">
+                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit <p>22/10/2020 | 08:32</p></h1>
+                        </div>
+                    </div>
+                    <div class="conversation">
+                        <div class="individual">
+                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnap <p>22/10/2020 | 08:32</p></h1>
+                        </div>
+                        <img src="../images/chat-individual.svg" alt="" class="img-individual">
+                    </div>
+                </div>
+            </div>
+            <div class="chat-footer">
+                <div class="chat-ft-container">
+                    <img src="../images/ava-input-chat.svg" alt="">
+                    <input type="text" name="" id="" placeholder="Nhập tin nhắn " class="inp-chat">
+                    <a href=""><img src="../images/ghim-chat.svg" alt=""></a>
+                    <a href=""><img src="../images/send-chat.svg" alt="" class="send-chat"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="menu-content-responsive">
+    <div class="menu-responsive__all">
+        <div class="container-menu-rp">
+            <div class="menu-home">
+                <div class="close-menu-rp" >
+                    <button >
+                        X
+                    </button>
+                </div>
+                <div class="menu-home-ct">
+                    <div class="text-ava-menu">
+                        <div class="img-ava-menu">
+                            <img src="../images/ava-profile.png" alt="">
+                            <div class="vuong-menu-rp">
+                                <img src="../images/vuong-menu-rp.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="menu-pice-rp">
+                            <h1>HoangNguyen</h1>
+                            <h2>15,000 <p>đ</p></h2>
+                        </div>
+                    </div>
+                    <ul class="mn">
+                        <li class="mn-text"><a href="">Trang chủ</a></li>
+                        <li class="mn-text"><a href="">Thuê người chơi</a></li>
+                        <li class="mn-text"><a href="">Đang theo dõi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logout-menu">
+                <button class="lg-out">Đăng Xuất</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
         <div class="footer">
         </div>
 
-        <script src="../lib/js/jquery-3.6.0.min.js"></script>
-<script src="../lib/js/script.js"></script>
+
         <script>
 
             var rechargeBtn = document.querySelector('.recharge-btn');
@@ -387,5 +686,32 @@
             });
             
             </script>
+
+
+<script>
+    $(document).ready(function(){
+        $(".link-chat").click(function(){
+            $(".modal-chat").toggle();
+        });
+        $(".chat-close").click(function(){
+            $(".modal-chat").hide();
+        });
+        $(".btn-chat").click(function(){
+            $(".modal-chat").toggle();
+        });
+    });
+</script>
+
+<script>
+     $(document).ready(function(){
+       
+        $(".menu-profile").click(function(){
+            $(".menu-content-responsive").toggle();
+        });
+        $(".close-menu-rp").click(function(){
+            $(".menu-content-responsive").hide();
+        });
+    });
+</script>
 </body>
 </html>

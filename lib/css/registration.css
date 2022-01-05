@@ -198,7 +198,7 @@ li.title-menu a:hover {
         margin: 0;
     }
     .form{
-        margin: 10px 110PX;
+        margin: 10px 60PX;
         padding: 20px 24px;
     }
     .login-fb p {
@@ -376,5 +376,28 @@ li.title-menu a:hover {
     }
     .in-code {
         top: 33px;  
+    }
+}
+@media (max-width : 414.4px)  {
+
+    i.fas.fa-eye {
+        top: 31px;
+    }
+    .in-code {
+        right: 7px;
+        font-size: 12px;
+        top: 30px;
+    }
+    .input-form-text input {
+        font-size: 12px;
+    }
+    .input-form input {
+        font-size: 10px;
+    }
+    .guys {
+        display: none;
+    }
+    .code {
+     padding: 0;
     }
 }

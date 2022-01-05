@@ -38,7 +38,7 @@
                       </a>
                   </div>
                   <div class="icon-tool-3">
-                      <a href="">
+                    <a href="javascript:void(0)"  class="link-chat">
                           <img src="../images/icon-chat.svg" alt="" class="icon-st">
                       </a>
                   </div>
@@ -94,7 +94,7 @@
 
                 <div class="body-profile">
                     <div class="img-profile">
-                        <img src="../images/frame-profile.png" alt="">
+                        <img src="../images/frame-profile.png" alt="" class="ava-img">
                         <img src="../images/frame-camera-profile.svg" alt="" class="camera">
                     </div>
                     <div class="tittle-profile">
@@ -204,47 +204,49 @@
                             </div>
                         </div>
                     </div>
-    
-                    <div class="body-fix">
-                        <p>Mật Khẩu</p>
-                        <img src="../images/frame-cham.svg" alt="">
-                        <button class="body-fix__link" href="">Đổi mật khẩu</button>
-                    </div>
-    
-                    <div class="body-fix-pass">
-                        <div class="content-fix-pass">
-                            <div class="box-pass">
-                                <p>Mật khẩu cũ</p>
-                                <div class="inp">
-                                    <input type="password" id="myInput" class="ip-pass" placeholder="">
-                                    <input type="checkbox" hidden class="login-form__hidden-btn" id="showpass" onclick="myFunction()">
-                                    <label for="showpass" class="img-eye">
-                                        <img src="../images/frame-fix-eye.svg" alt="">
-                                    </label>
-                                </div>
+                        <div class="all-fix">
+
+                            <div class="body-fix">
+                                <p>Mật Khẩu</p>
+                                <img src="../images/frame-cham.svg" alt="">
+                                <button class="body-fix__link" href="">Đổi mật khẩu</button>
                             </div>
-                            <div class="box-pass">
-                                <p>Mật khẩu mới</p>
-                                <div class="inp">
-                                    <input type="password" id="myInput-1" class="ip-pass" placeholder="">
-                                    <input type="checkbox" hidden class="login-form__hidden-btn" id="showpass-1" onclick="myFunction1()">
-                                    <label for="showpass-1" class="img-eye">
-                                        <img src="../images/frame-fix-eye.svg" alt="">
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="box-pass">
-                                <p>Nhập Lại mật khẩu mới</p>
-                                <div class="inp-1">
-                                    <input type="password" id="myInput-2" class="ip-pass-1" placeholder="">
-                                    <input type="checkbox" hidden class="login-form__hidden-btn" id="showpass-2" onclick="myFunction2()">
-                                    <label for="showpass-2" class="img-eye">
-                                        <img src="../images/frame-fix-eye.svg" alt="" class="eye">
-                                    </label>
+            
+                            <div class="body-fix-pass">
+                                <div class="content-fix-pass">
+                                    <div class="box-pass">
+                                        <p>Mật khẩu cũ</p>
+                                        <div class="inp">
+                                            <input type="password" id="myInput" class="ip-pass" placeholder="">
+                                            <input type="checkbox" hidden class="login-form__hidden-btn" id="showpass" onclick="myFunction()">
+                                            <label for="showpass" class="img-eye">
+                                                <img src="../images/frame-fix-eye.svg" alt="">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="box-pass">
+                                        <p>Mật khẩu mới</p>
+                                        <div class="inp">
+                                            <input type="password" id="myInput-1" class="ip-pass" placeholder="">
+                                            <input type="checkbox" hidden class="login-form__hidden-btn" id="showpass-1" onclick="myFunction1()">
+                                            <label for="showpass-1" class="img-eye">
+                                                <img src="../images/frame-fix-eye.svg" alt="">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="box-pass">
+                                        <p>Nhập Lại mật khẩu mới</p>
+                                        <div class="inp-1">
+                                            <input type="password" id="myInput-2" class="ip-pass-1" placeholder="">
+                                            <input type="checkbox" hidden class="login-form__hidden-btn" id="showpass-2" onclick="myFunction2()">
+                                            <label for="showpass-2" class="img-eye">
+                                                <img src="../images/frame-fix-eye.svg" alt="" class="eye">
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
     
                 </div>
             </div>
@@ -258,7 +260,43 @@
     </div>
 
 </div>
-
+<div class="modal-chat">
+    <div class="container-chat">
+        <div class="chat-head">
+            <div class="chat-name">
+                <img src="../images/head-chat.svg" alt="">
+                <p>Nguyễn Đình Trần Thiện</p>
+            </div>
+            <div class="chat-close">
+                <button>X</button>
+            </div>
+        </div>
+        <div class="chat-body">
+            <div class="chat-content">
+                <div class="conversation">
+                    <img src="../images/chat-individual-2.svg" alt="" class="img-individual">
+                    <div class="individual-2">
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit <p>22/10/2020 | 08:32</p></h1>
+                    </div>
+                </div>
+                <div class="conversation">
+                    <div class="individual">
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnap <p>22/10/2020 | 08:32</p></h1>
+                    </div>
+                    <img src="../images/chat-individual.svg" alt="" class="img-individual">
+                </div>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <div class="chat-ft-container">
+                <img src="../images/ava-input-chat.svg" alt="">
+                <input type="text" name="" id="" placeholder="Nhập tin nhắn " class="inp-chat">
+                <a href=""><img src="../images/ghim-chat.svg" alt=""></a>
+                <a href=""><img src="../images/send-chat.svg" alt="" class="send-chat"></a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="recharge">
     <div class="wraper-recharge">
@@ -339,17 +377,41 @@ rechargeBg.addEventListener('click',function(){
     rechargeBg.classList.remove('hide-recharge');
 });
 
+var check=false;
+$(".body-fix-pass").hide();
 $(document).ready(function(){
   $(".body-fix__link").click(function(){
-    $(".body-fix-pass").toggle();
+    if(check==false){
+       check=true;
+        $(this).text('Hủy');
+        
+        $(".body-fix-pass").show();
+    }else{
+       check=false;
+        $(this).text('Đổi mật khẩu');
+        $(".body-fix-pass").hide();
+        
+    }
   });
   
-  $(".body-fix__link").click(function(){
-    $(".body-fix__link").text('Hủy');
-  });
+
   
 });
 
+</script>
+
+<script>
+    $(document).ready(function(){
+        $(".link-chat").click(function(){
+            $(".modal-chat").toggle();
+        });
+        $(".chat-close").click(function(){
+            $(".modal-chat").hide();
+        });
+        $(".btn-chat").click(function(){
+            $(".modal-chat").toggle();
+        });
+    });
 </script>
 </body>
 

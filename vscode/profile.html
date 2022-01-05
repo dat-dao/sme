@@ -38,7 +38,7 @@
                       </a>
                   </div>
                   <div class="icon-tool-3">
-                      <a href="">
+                      <a href="javascript:void(0)"  class="link-chat">
                           <img src="../images/icon-chat.svg" alt="" class="icon-st">
                       </a>
                   </div>
@@ -737,19 +737,17 @@
 <script src="../lib/js/script.js"></script>
 
 <script>
-
-    var rechargeBtn = document.querySelector('.recharge-btn');
-    var rechargeBg = document.querySelector('.recharge');
-    var closebg = document.querySelector('.x')
-    
-    rechargeBtn.addEventListener('click',function(){
-        rechargeBg.classList.add('hide-recharge');
+    $(document).ready(function(){
+        $(".link-chat").click(function(){
+            $(".modal-chat").toggle();
+        });
+        $(".chat-close").click(function(){
+            $(".modal-chat").hide();
+        });
+        $(".btn-chat").click(function(){
+            $(".modal-chat").toggle();
+        });
     });
-    
-    rechargeBg.addEventListener('click',function(){
-        rechargeBg.classList.remove('hide-recharge');
-    });
-    
-    </script>
+</script>
 </body>
 </html>

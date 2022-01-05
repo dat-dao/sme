@@ -388,6 +388,7 @@ a{
 
 .login{
     position: relative;
+    padding: 0px 30px;
 }
 .img{
     text-align: center;
@@ -521,7 +522,7 @@ a{
 }
 .login-fb a{
     font-style: normal;
-    color: #650107;
+    color: rgba(101, 1, 7, 0.87);
     padding: 10px 100px 10px 80px;
     line-height: 24px;
     width: 100%;
@@ -630,6 +631,10 @@ a:hover {
         font-weight: 600;
         font-size: 13px;
     }
+    .login-fb a {
+        padding: 10px 100px 10px 70px;
+        font-size: 14px;
+    }
 }
 
 
@@ -651,7 +656,7 @@ a:hover {
         margin: 0;
     }
     .form{
-        margin: 10px 110PX;
+        margin: 10px 80PX;
         padding: 20px 24px;
     }
     .login-fb p {
@@ -729,6 +734,10 @@ a:hover {
         margin: 50px auto 24px;
     font-size: 12px;
     }
+    .login-fb a {
+        padding: 10px 35px 10px 35px;
+        font-size: 13px;
+    }
 }
 
 @media (min-width :415px) and (max-width :  576px) {
@@ -765,12 +774,12 @@ a:hover {
         align-items: center;
     }
     .form {
-        margin: 30px auto;   
-        padding: 20px 34px;
+        
+        padding: 20px 30px;
     }
     .form h2 {
-        font-size: 20px;
-        line-height: 22px;
+        font-size: 16px;
+        line-height: 16px;
         font-weight: 600;
     }
     .img {
@@ -782,7 +791,7 @@ a:hover {
     }
     label {
         font-weight: 600;
-        font-size: 13px;
+        font-size: 12px;
         line-height: 10px;
     }
     .nho-dang-nhap {
@@ -815,15 +824,25 @@ a:hover {
         margin: 50px auto 24px;
         font-size: 12px;
     }
+    .login-fb a {
+        padding: 10px 30px 10px 30px;
+        font-size: 12px;
+    }
+    .submit-form input {
+        font-size: 12px; 
+    }
+    img.icon-footer {
+        width: 24px;
+        height: 40px;   
+    }
 }
 
-@media (max-width : 414.4px) {
+@media (max-width : 414.4px)  {
 
     .form h2 {
         text-align: center;
-        padding: 40px 122px 0;
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 16px;
         color: #650107;
         font-weight: 700;
         letter-spacing: 0.024em;
@@ -837,12 +856,16 @@ a:hover {
         position: inherit;
     }
     li.icon-head {
-        text-align: center;
+       display: flex;
     }
 
     .logo {
         text-align: center;
         width: 100%;
+    }
+
+    .span{
+        display: none   ;
     }
 
     #container {
@@ -851,7 +874,7 @@ a:hover {
         display: block;
         justify-content: space-between;
         padding: 0 auto;
-        padding: 0 80px;
+        padding: 0 50px;
     }
 
     .head-login {
@@ -866,9 +889,65 @@ a:hover {
         margin: 0px;
         padding: 24px 0px 21px 0;
     }
+    .input-form p {
+        font-size: 12px;
+    }
 
-   
-
+    .input-form input {
+        height: 30px;
+    }
+    label {
+     
+        font-size: 12px;
+        line-height: 10px;
+    
+    }
+    .nho-dang-nhap {
+        font-size: 13px;
+        align-items: center;
+        padding: 0;
+    }
+    .check-title {
+        margin: 0;
+        align-items: center;
+    }
+    input[type="checkbox"] {
+        width: 18px;
+    }
+    .submit-form input {
+        padding: 0px;
+        font-size: 12px;
+ 
+    }
+    .form {
+        margin: 30px auto;
+    }
+    .login-fb a {
+        padding: 10px 20px 10px 20px;
+        font-size: 12px;
+    }
+    .menu-list {
+        padding: 0;
+    }
+    .logo-sme { 
+        margin: 0;
+    }
+    li.icon-head {
+        display: flex;
+        padding: 3px;
+        align-items: center;
+    }
+    .copyright {
+        margin: 30px auto 24px;
+        font-size: 12px;
+    }
+    .menu-head {
+        margin-bottom: 10px;
+    }
+    .nho-dang-nhap span {
+        padding: 0;
+        padding-left: 10px;
+    }
     
 }
 
