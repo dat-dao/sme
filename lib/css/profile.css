@@ -262,18 +262,19 @@ ul,ol,li{
 }
 .container{
     background:#FFF;
-    width: 1280px;
+    width: 1310px;
     max-width: 100%;
     margin: 0px auto;
     padding: 0;
     border-radius: 24px;
+  
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
-    margin: 15px  0px;
+    padding: 15px  15px;
 }
 .header-logo img {
     width: 167px;
@@ -292,11 +293,7 @@ ul.list-menu {
     padding: 7px 0;
     margin: 0;
 }
-.header-logo {
-    width: 20%;
-}
 .header-menu{
-    width: 50%;
     padding: 10px;
 }
 li.title-menu a {
@@ -328,19 +325,16 @@ li.title-menu a:hover {
 }
 
 .header-tool{
-    width: 30%;
     display: flex;
-    margin: 0px -30px 0 0px;
 }
 
 .icon-tool {
     display: flex;
-    width: 40%;
     justify-content: space-evenly;
     padding: 7px;
 }
 .icon-tool-3 {
-    width: 33.333333%;
+
     margin-right: 18px;
 }
 img.icon-st {
@@ -348,7 +342,6 @@ img.icon-st {
     border-radius: 100%;
 }
 .personal {
-    width: 80%;
     color: black;
     display: flex;
     margin-left: 16px;
@@ -359,11 +352,9 @@ img.icon-st {
     padding: 4px;
 }
 .personal-ava {
-    width: 30%;
     position: relative;
 }
 .information {
-    width: 80%;
     padding: 5px 0px 5px 22px;
 }
 .price {
@@ -675,11 +666,13 @@ button.btn-buy {
     outline: none;
 }
 .home-page {
+    max-width: 1310px;
+
     display: flex;
     position: absolute;
-    width: 1280px;
+    width: 100%;
     top: 280px;
-    padding: 0 32px;
+    padding: 0 30px;
 }
 .home-page-head {
     display: flex;
@@ -691,17 +684,17 @@ button.btn-buy {
     background: #efefef75;
     padding-top: 41px;
 }
+
 .infomation-main {
-    width: 1280px;
-    margin: 0 auto;
-    padding-bottom: 70px;
-}
-.infomation-main {
-    width: 1280px;
+    max-width: 1310px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
     margin: 0 auto;
     border-radius: 24px;
     background: #fff;
     padding-bottom: 120px;
+
 }
 .home-btn a {
     display: flex;
