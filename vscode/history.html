@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="../lib/js/jquery-3.6.0.min.js"></script>
+    <script src="../lib/js/script.js"></script>
+    <script src="../lib/js/jquery.slim.min.js"></script>
     <link rel="stylesheet" href="../lib/css/base.css">
     <link rel="stylesheet" href="../lib/css/history.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -92,7 +95,7 @@
             <div class="seach">
                     <div class="seach-container">
                         <input type="text" placeholder="Từ khóa tìm kiếm" class="text-seach">
-                        <select name="" id="select-seach" >
+                        <select name="" id="select-seach"  >
                             <option value="">Loại giao dịch</option>
                             <option value="">Nạp tiền</option>
                             <option value="">Donate</option>
@@ -103,7 +106,118 @@
                         </button>
                     </div>
             </div>
+<div class="all-table">
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th class="th-date">Ngày/Giờ</th>
+                <th>Loại Giao Dịch</th>
+                <th>Số Dư Trước Giao Dịch</th>
+                <th>Số Tiền Giao Dịch</th>
+                <th>Số Dư Sau Giao Dịch</th>
+                <th>Lời Nhắn</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td-date">05/12/2020 - 08:40</td>
+                <td>Nạp tiền</td>
+                <td>160,000</td>
+                <td>120,000</td>
+                <td >120,000</td>
+                <td class="td-text">
+                    Lorem ipsum dolor sit amet, consadq
+                    <span class="dot">...</span>
+                     <span class="more">
+                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet 
+                    </span> 
+                     <div class="tick-history">
+                         <img src="../images/tick-history.svg" alt="">
+                     </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-date">05/12/2020 - 08:40</td>
+                <td>Nạp tiền</td>
+                <td>160,000</td>
+                <td>120,000</td>
+                <td >120,000</td>
+                <td class="td-text">
+                    Lorem ipsum dolor sit amet, consadq
+                    <span class="dot">...</span>
+                     <span class="more">
+                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet 
+                    </span> 
+                     <div class="tick-history">
+                         <img src="../images/tick-history.svg" alt="">
+                     </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-date">05/12/2020 - 08:40</td>
+                <td>Nạp tiền</td>
+                <td>160,000</td>
+                <td>120,000</td>
+                <td >120,000</td>
+                <td class="td-text">
+                    Lorem ipsum dolor sit amet, consadq
+                    <span class="dot">...</span>
+                     <span class="more">
+                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet 
+                    </span> 
+                     <div class="tick-history">
+                         <img src="../images/tick-history.svg" alt="">
+                     </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-date">05/12/2020 - 08:40</td>
+                <td>Nạp tiền</td>
+                <td>160,000</td>
+                <td>120,000</td>
+                <td >120,000</td>
+                <td class="td-text">
+                    Lorem ipsum dolor sit amet, consadq
+                    <span class="dot">...</span>
+                     <span class="more">
+                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet 
+                    </span> 
+                     <div class="tick-history">
+                         <img src="../images/tick-history.svg" alt="">
+                     </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="footer-history">
+        <div class="sl-player">
+            <p>12 <span>/40 người chơi</span></p>
+        </div>
+        <div class="next-page">
+            <ul>
+                <li><a href=""><</a></li>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">...</a></li>
+                <li><a href="">8</a></li>
+                <li><a href="">></a></li>
+            </ul>
         </div>
     </div>
+
+</div>
+        </div>
+
+    </div>
+    <script>
+        $(document).ready(function(){
+            $(".tick-history").click(function(){
+                $(this).prev().toggle();
+                $(this).siblings('.dot').toggle();
+                
+            });
+            
+        })
+    </script>
 </body>
 </html>

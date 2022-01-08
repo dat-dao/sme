@@ -193,6 +193,7 @@
  .main-body{
     background: #efefef75;
     padding-top: 40px;
+    padding-bottom: 60px;
  }
  .body-container {
     width: 1310px;
@@ -235,10 +236,6 @@ border-radius: 8px;
     width: 100%;
     padding: 16px 12px;
 }
-#select-seach{
-    max-width: 240px;
-    width: 100%;
-}
 .text-seach::placeholder{
     font-size: 16px;
     line-height: 24px;
@@ -249,14 +246,24 @@ border-radius: 8px;
     outline: none;
 }
 #select-seach {
+    cursor: pointer;
+    max-width: 240px;
+    width: 100%;
+    background: #FFFFFF url('../../images/tick-history.svg') no-repeat right 0.75rem center;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 16px 12px;
+    margin-left: 16px;
+    margin-right: 16px;
     font-family: Montserrat;
-    background: #FFFFFF;
-border: 1px solid #E8E8E8;
-box-sizing: border-box;
-border-radius: 8px;
-padding: 16px 12px;
-margin-left: 16px;
-margin-right: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.32);
+    appearance: none;
 }
 #select-seach option{
     font-style: normal;
@@ -271,3 +278,114 @@ margin-right: 16px;
     outline: none;
 
 }
+
+/* Table */
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+   width: 100%;
+   border-radius:24px 24px 0px 0px;
+   overflow: hidden;
+}
+.content-table thead tr {
+    background: rgba(254, 97, 107, 0.06);
+    border-radius: 24px 24px 0px 0px;
+    text-align: left;
+}
+.content-table thead tr th{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.012em;
+text-transform: capitalize;
+color: #FE616B;
+padding: 14px;
+}
+.th-date{
+    text-align: center;
+}
+.td-date{
+text-align: left !important;
+color: rgba(101, 1, 7, 0.6) !important;
+}
+.td-text{
+    display: flex;
+    text-align: left !important;
+    color: rgba(101, 1, 7, 0.6) !important; 
+    padding-left: 14px !important;
+    width: 100%;
+    max-width: 317px;
+    display: -webkit-inline-box;
+}
+.tick-history{
+    padding-left: 19px;
+    cursor: pointer;
+}
+.content-table tbody{
+    background: #FFFFFF;
+}
+.content-table tbody tr td {
+    text-align: end;
+    padding: 19px 20px 13px 24px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.012em;
+color: rgba(101, 1, 7, 0.87);
+}
+.all-table{
+    background:#FFFFFF;
+    border-radius: 24px;
+    margin-bottom: 60px;
+}
+
+.footer-history {
+    padding: 24px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.next-page ul {
+    display: flex;
+}
+.next-page ul li {
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: 8px;
+}
+.next-page ul li:hover {
+    border: 1px solid #FE616B;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #FE616B;
+    cursor: pointer;
+}
+.sl-player p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    color: #FE616B;
+}
+.sl-player p span {
+    color: rgba(101, 1, 7, 0.38);
+}
+tbody tr {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+/* Test */
+
+span.more {
+    display: none;
+}   

@@ -609,7 +609,7 @@ a.emotion-title {
 }
 
 .vuong-profile {
-    right: 0;
+    right: -7px;
     bottom: 0;
     position: absolute;
     border: none;
@@ -926,7 +926,7 @@ margin: 0;
     cursor: pointer;
 }
 .menu-responsive__all{
-    background-color: #FE858D;
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
     position: fixed;
     top: 0;
     right: 0;
@@ -1208,6 +1208,7 @@ li.nav-item {
     .conversation h1 {
         font-size: 12px;
     }
+    /*  */
 }
 @media (min-width : 576px) and (max-width : 720px) {
     .img-st-3 {
@@ -1307,4 +1308,10 @@ li.nav-item {
     .emoticon p {
         font-size: 13px;
     }
+    .modal-chat {
+        right: 0px;
+        width: 367px;
+        height: 580px;
+    }
+    
 }
