@@ -51,12 +51,12 @@
                 </div>
                 <div class="personal">
                     <div class="personal-ava">
-                        <img src="../images/ava.svg" alt="">
+                        <a href="../vscode/profile.html"> <img src="../images/ava.svg" alt=""></a> 
                         <div class="vuong-profile">
                             <img src="../images/vuong-profile.svg" alt="">
                         </div>
                     </div>
-                    <div class="information">
+                    <div class="information">   
                         <div class="name">
                             Hoang Nguyen
                         </div>
@@ -86,6 +86,59 @@
             </div>
         </div>
     </div>
+    <div class="header-1"> 
+        <div class="header-logo">
+            <div class="header-titlle">
+                Thông Tin Cá Nhân
+            </div>
+            <img src="../images/5me.onl-rp.svg" alt="">
+        </div>
+        <div class="header-tool">
+            <div class="icon-tool">
+              <div class="icon-tool-3">
+                  <a href="">
+                      <img src="../images/rp-seach.svg" alt="" class="icon-st-rp">
+                  </a>
+              </div>
+              <div class="icon-tool-3">
+                  <a href="javascript:void(0)" class="link-chat">
+                      <img src="../images/rp-chat.svg" alt="" class="icon-st-rp">
+                  </a>
+              </div>
+              <div class="icon-tool-3">
+                  <a href="">
+                      <img src="../images/rp-tb.svg" alt="" class="icon-st-rp">
+                  </a>
+              </div>
+
+              <div class="menu-responsive">
+                <a href="javascript:void(0)"  class="menu-profile">
+                    <img src="../images/menu-respon.svg" alt="" class="icon-menu">
+                </a>
+            </div>
+
+            </div>
+                <div class="content-menu">
+                    <div class="nen">
+                        
+                    </div>
+                    <div class="triangle">
+
+                    </div>
+                    <ul class="personal-menu">
+                        <li class="menu-title"><a class="recharge-btn">Nạp tiền</a></li>
+                        <li class="menu-title"><a href=""> Rút tiền</a></li>
+                        <li class="menu-title"><a href="">Lịch sử giao dịch</a></li>
+                        <li class="menu-title"><a href="../vscode/frame.html">Cài đặt tài khoản</a></li>
+                        <li class="menu-title"><a href="">Đăng Xuất</a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+
+        </div>
     <!-- Body -->
     <div class="body">
         
@@ -93,10 +146,20 @@
                 <div class="body-content">
 
                 <div class="body-profile">
-                    <div class="img-profile">
+                    <div class="avatar-upload">
+                        <div class="avatar-edit">
+                            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                            <label for="imageUpload" class="camera-ava"><img src="../images/frame-camera-profile.svg" alt=""></label>
+                        </div>
+                        <div class="avatar-preview">
+                            <div id="imagePreview" style="background-image: url(https://i.pinimg.com/736x/24/21/85/242185eaef43192fc3f9646932fe3b46.jpg);">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="img-profile">
                         <img src="../images/frame-profile.png" alt="" class="ava-img">
                         <img src="../images/frame-camera-profile.svg" alt="" class="camera">
-                    </div>
+                    </div> -->
                     <div class="tittle-profile">
                         <div class="name-profile">
                             Trần Thị Thùy Linh
@@ -123,17 +186,17 @@
                             </div>
                         </div>
     
-                        <div class="total-content">
-                            <div class="total-name">
-                                <h2>TỔNG TIỀN ĐÃ NẠP</h2>
-                                <p>7,500,000 <span>đ</span></p>
+                        <div class="total-content-2">
+                            <div class="total-name-2">
+                                <h2>TIỀN ĐÃ DONATE</h2>
+                                <p>550,000 <span>đ</span></p>
                             </div>
                         </div>
     
-                        <div class="total-content">
-                            <div class="total-name">
-                                <h2>TỔNG TIỀN ĐÃ NẠP</h2>
-                                <p>7,500,000 <span>đ</span></p>
+                        <div class="total-content-3">
+                            <div class="total-name-3">
+                                <h2>SỐ GIỜ ĐÃ THUÊ</h2>
+                                <p>120 <span>Giờ</span></p>
                             </div>
                         </div>
                     </div>
@@ -359,7 +422,43 @@
     </div>
 
 </div>
+<div class="menu-content-responsive">
+    <div class="menu-responsive__all">
+        <div class="container-menu-rp">
+            <div class="menu-home">
+                <div class="close-menu-rp" >
+                    <button >
+                        X
+                    </button>
+                </div>
+                <div class="menu-home-ct">
+                    <div class="text-ava-menu">
+                        <div class="img-ava-menu">
+                            <img src="../images/ava-profile.png" alt="">
+                            <div class="vuong-menu-rp">
+                                <img src="../images/vuong-menu-rp.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="menu-pice-rp">
+                            <h1>HoangNguyen</h1>
+                            <h2>15,000 <p>đ</p></h2>
+                        </div>
+                    </div>
+                    <ul class="mn">
+                        <li class="mn-text"><a href="">Trang chủ</a></li>
+                        <li class="mn-text"><a href="">Thuê người chơi</a></li>
+                        <li class="mn-text"><a href="">Đang theo dõi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logout-menu">
+                <button class="lg-out">Đăng Xuất</button>
+            </div>
 
+        </div>
+    </div>
+
+</div>
 
     <script src="../lib/js/script.js"></script>
     <script src="../lib/js/jquery-3.6.0.min.js"></script>
@@ -413,6 +512,78 @@ $(document).ready(function(){
         });
     });
 </script>
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+                $('#imagePreview').hide();
+                $('#imagePreview').fadeIn(650);
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    $("#imageUpload").change(function() {
+        readURL(this);
+    });
+
+</script>
+
+<!-- Menu Rp -->
+<script>
+
+    $(document).ready(function(){
+      
+       $(".menu-profile").click(function(){
+           $(".menu-content-responsive").toggle();
+       });
+       $(".close-menu-rp").click(function(){
+           $(".menu-content-responsive").hide();
+       });
+   });
+</script>
+<!-- Cuộn -->
+<script>
+    
+    $(document).ready(function(){
+  
+  //khi lăn chuột
+  $(window).scroll(function(){
+      // kiểm tra điều kiện > 300 thì mới addClass 
+      if ( $(window).scrollTop() > 50 ){
+  
+          $('.header').addClass('active');
+  
+      }
+      else{
+  
+          $('.header').removeClass('active');
+  
+      }
+  });
+  });
+  </script>
+<script>
+    
+    $(document).ready(function(){
+  
+  //khi lăn chuột
+  $(window).scroll(function(){
+      // kiểm tra điều kiện > 300 thì mới addClass 
+      if ( $(window).scrollTop() > 50 ){
+  
+          $('.header-1').addClass('active');
+  
+      }
+      else{
+  
+          $('.header-1').removeClass('active');
+  
+      }
+  });
+  });
+  </script>
 </body>
 
 </html>                
