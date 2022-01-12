@@ -1340,9 +1340,11 @@ a.modal-btn {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    color: #fff;
 }
 a.modal-btn:hover{
     background:#FE616B;
+    color: #fff;
 }
 
 .bg-active{
