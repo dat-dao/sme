@@ -88,6 +88,59 @@
             </div>
         </div>
     </div>
+    <div class="header-1"> 
+        <div class="header-logo">
+            <img src="../images/5me.onl-rp.svg" alt="">
+        </div>
+        <div class="header-text">
+            Thuê người chơi
+        </div>
+        <div class="header-tool">
+            <div class="icon-tool">
+              <div class="icon-tool-3">
+                  <a href="">
+                      <img src="../images/rp-seach.svg" alt="" class="icon-st-rp">
+                  </a>
+              </div>
+              <div class="icon-tool-3">
+                  <a href="javascript:void(0)" class="link-chat">
+                      <img src="../images/rp-chat.svg" alt="" class="icon-st-rp">
+                  </a>
+              </div>
+              <div class="icon-tool-3">
+                  <a href="">
+                      <img src="../images/rp-tb.svg" alt="" class="icon-st-rp">
+                  </a>
+              </div>
+
+              <div class="menu-responsive">
+                <a href="javascript:void(0)"  class="menu-profile">
+                    <img src="../images/menu-respon.svg" alt="" class="icon-menu">
+                </a>
+            </div>
+
+            </div>
+                <div class="content-menu">
+                    <div class="nen">
+                        
+                    </div>
+                    <div class="triangle">
+
+                    </div>
+                    <ul class="personal-menu">
+                        <li class="menu-title"><a class="recharge-btn">Nạp tiền</a></li>
+                        <li class="menu-title"><a href=""> Rút tiền</a></li>
+                        <li class="menu-title"><a href="">Lịch sử giao dịch</a></li>
+                        <li class="menu-title"><a href="../vscode/frame.html">Cài đặt tài khoản</a></li>
+                        <li class="menu-title"><a href="">Đăng Xuất</a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+
+        </div>
     <div class="main-body">
         <div class="body-container">
             <h1>Lịch Sử Giao Dịch</h1>
@@ -95,15 +148,17 @@
             <div class="seach">
                     <div class="seach-container">
                         <input type="text" placeholder="Từ khóa tìm kiếm" class="text-seach">
-                        <select name="" id="select-seach"  >
-                            <option value="">Loại giao dịch</option>
-                            <option value="">Nạp tiền</option>
-                            <option value="">Donate</option>
-                            <option value=""></option>
-                        </select>
-                        <button class="img-seach">
-                            <img src="../images/history-btn-seach.svg" alt="">
-                        </button>
+                        <div class="all-select">
+                            <select name="" id="select-seach"  >
+                                <option value="">Loại giao dịch</option>
+                                <option value="">Nạp tiền</option>
+                                <option value="">Donate</option>
+                                <option value=""></option>
+                            </select>
+                            <button class="img-seach">
+                                <img src="../images/history-btn-seach.svg" alt="">
+                            </button>
+                        </div>
                     </div>
             </div>
 <div class="all-table">
@@ -206,6 +261,43 @@
     </div>
 
 </div>
+<div class="menu-content-responsive">
+    <div class="menu-responsive__all">
+        <div class="container-menu-rp">
+            <div class="menu-home">
+                <div class="close-menu-rp" >
+                    <button >
+                        X
+                    </button>
+                </div>
+                <div class="menu-home-ct">
+                    <div class="text-ava-menu">
+                        <div class="img-ava-menu">
+                            <img src="../images/ava-profile.png" alt="">
+                            <div class="vuong-menu-rp">
+                                <img src="../images/vuong-menu-rp.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="menu-pice-rp">
+                            <h1>HoangNguyen</h1>
+                            <h2>15,000 <p>đ</p></h2>
+                        </div>
+                    </div>
+                    <ul class="mn">
+                        <li class="mn-text"><a href="">Trang chủ</a></li>
+                        <li class="mn-text"><a href="">Thuê người chơi</a></li>
+                        <li class="mn-text"><a href="">Đang theo dõi</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logout-menu">
+                <button class="lg-out">Đăng Xuất</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
         </div>
 
     </div>
@@ -219,5 +311,57 @@
             
         })
     </script>
+    <script>
+
+        $(document).ready(function(){
+          
+           $(".menu-profile").click(function(){
+               $(".menu-content-responsive").toggle();
+           });
+           $(".close-menu-rp").click(function(){
+               $(".menu-content-responsive").hide();
+           });
+       });
+   </script>
+   <script>
+    
+   $(document).ready(function(){
+ 
+ //khi lăn chuột
+ $(window).scroll(function(){
+     // kiểm tra điều kiện > 300 thì mới addClass 
+     if ( $(window).scrollTop() > 50 ){
+ 
+         $('.header').addClass('active');
+ 
+     }
+     else{
+ 
+         $('.header').removeClass('active');
+ 
+     }
+ });
+ });
+ </script>
+ <script>
+     
+     $(document).ready(function(){
+   
+   //khi lăn chuột
+   $(window).scroll(function(){
+       // kiểm tra điều kiện > 300 thì mới addClass 
+       if ( $(window).scrollTop() > 50 ){
+   
+           $('.header-1').addClass('active');
+   
+       }
+       else{
+   
+           $('.header-1').removeClass('active');
+   
+       }
+   });
+   });
+   </script>
 </body>
 </html>
