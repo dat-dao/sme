@@ -44,6 +44,7 @@
     width: 100%;
     z-index: 100;
     padding: 15px 50px;
+    margin: 0;
 }
 .header-1.active {
     position: fixed;
@@ -536,8 +537,7 @@ color: rgba(101, 1, 7, 0.87);
 }
 .all-table{
     background: #FFFFFF;
-    border-radius: 24px;
-    margin-bottom: 60px;
+    border-radius: 24px 24px 0 0;
     overflow-x: scroll;
     overflow-y: hidden;
     width: 100%;
@@ -552,6 +552,8 @@ color: rgba(101, 1, 7, 0.87);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #fff;
+    border-radius: 0 0 24px 24px;
 }
 .next-page ul {
     display: flex;
@@ -761,6 +763,13 @@ span.more {
           max-width: 100%;
           margin-left: 0;
       }
+      .footer-history {
+        justify-content: center;
+    }
+    .sl-player {
+        display: none;
+    }
+
 }
 @media (max-width : 414.4px)  {
     .header-logo{
@@ -830,5 +839,11 @@ span.more {
     }
     button.img-seach img {
         width: 14px;
+    }
+    .footer-history {
+        justify-content: center;
+    }
+    .sl-player {
+        display: none;
     }
 }
