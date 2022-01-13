@@ -624,3 +624,65 @@ li.img-game__b{
     color: #FE616B;
     
 }
+
+/* Rp-all-menu-rp  css menu*/ 
+.parameter-rp {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.middle-col {
+    width: 100%;
+}
+.profile-evaluate {
+    justify-content: center;
+}
+.ke-doc {
+    width: 100%;
+    margin: 10px;
+}
+.all-menu-rp {
+    background: #FFFFFF;
+    border-radius: 24px;
+    margin: 16px;
+    padding: 0 12px;
+    display: none;
+}
+ul#pills-tab {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: center;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid rgba(254, 97, 107, 0.16);;
+}
+li.nav-item {
+    padding: 12px;
+}
+li.nav-item:hover {
+    border-bottom: 1px solid #FE616B;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: #FE616B;
+}
+.nav-pills .nav-link {
+    border-radius: 0.25rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.2);
+}
+
