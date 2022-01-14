@@ -27,6 +27,7 @@
      padding: 0 15px;
  }
  .header-1 {
+    width: 100%;
     align-items: center;
     display: none;
     justify-content: space-between;
@@ -236,7 +237,7 @@ li.mn-text a {
      background: url(../../images/cham-profile.svg);
      position: absolute;
      right: 5px;
-     top: -24px;
+     top: -8px;
      height: 8px;
      width: 8px;
  }
@@ -444,7 +445,7 @@ li.img-top__e {
 }
 li.img-top__f {
     position: relative;
-    left: -35px;
+    left: -30px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -625,64 +626,392 @@ li.img-game__b{
     
 }
 
-/* Rp-all-menu-rp  css menu*/ 
-.parameter-rp {
-    display: flex;
-    justify-content: space-around;
+/* rp-all-container */
+
+/* rb */
+.rp-left-col{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1310px;
+    padding: 15px;
+}
+.rp-left-row-1 {
     flex-wrap: wrap;
-}
-.middle-col {
-    width: 100%;
-}
-.profile-evaluate {
-    justify-content: center;
-}
-.ke-doc {
-    width: 100%;
-    margin: 10px;
-}
-.all-menu-rp {
-    background: #FFFFFF;
-    border-radius: 24px;
-    margin: 16px;
-    padding: 0 12px;
-    display: none;
-}
-ul#pills-tab {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    text-align: center;
-    flex-wrap: nowrap;
-    border-bottom: 1px solid rgba(254, 97, 107, 0.16);;
-}
-li.nav-item {
-    padding: 12px;
-}
-li.nav-item:hover {
-    border-bottom: 1px solid #FE616B;
+    display: flex;
+    justify-content:space-between;
 }
 
+ul#pills-tab {
+    justify-content: center;
+}
+
+.rp-all-container {
+    background: #FFFFFF;
+    border-radius: 24px;
+    margin: 15px;
+    padding: 10px 12px;
+    display: none;
+}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #FE616B;
     background: none;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 0.012em;
-    text-transform: capitalize;
-    color: #FE616B;
+    border-bottom: 1px solid;
 }
-.nav-pills .nav-link {
-    border-radius: 0.25rem;
+ul#pills-tab {
+    padding: 0;
+    justify-content: center;
+    border-bottom: 1px solid rgba(254, 97, 107, 0.16);
+}
+li.nav-item {
+    padding: 0;
+    width: 50%;
+    text-align: center;
+}
+
+.tab-content>.active {
+    display: block;
+}
+.rp-left-col {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1310px;
+    padding: 15px;
+}
+.rp-left-row-1 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.left-letter {
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.24);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.left-box-img {
+    border: none;
+    border-radius: 24px;
+    display: flex;
+    background: #FEFEFE;
+    margin-right: 24px;
+    align-items: center;
+    padding: 8px 10px;
+}
+.img-st {
+    position: relative;
+}
+.img-st-2 {
+    position: relative;
+    left: -10px;
+}
+.img-st-3 {
+    position: relative;
+    left: -19px;
+}
+.left-move {
+    display: flex;
+    color: rgba(101, 1, 7, 0.38);
+    padding: 8px 0;
+}
+.left-move p {
+    padding: 8px;
+    margin: 0;
+}
+.move {
+    padding: 8px;
+    border: 1px solid #fff;
+    background: rgba(254, 97, 107, 0.08);
+    border-radius: 50%;
+}
+
+/* Trò chuyện  */
+.chat-box {
+    background: #FEFEFE;
+    border-radius: 0px 24px 24px 24px;
+    padding: 32px 12px;
+}
+.chat-row1 {
+    display: flex;
+    margin-bottom: 16px;
+}
+.chat-info {
+    color: #650107;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    padding-left: 8px;
+    width: 100%;
+}
+.info-row1 {
+    display: flex;
+    justify-content: space-between;
+}
+p.chat-name {
+    margin-bottom: 4px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.38);
+}
+p.chat-time {
+    margin-bottom: 4px;
+    color: rgba(101, 1, 7, 0.38);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+}
+input::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.012em;
-    text-transform: capitalize;
-    color: rgba(101, 1, 7, 0.2);
+    color: rgba(101, 1, 7, 0.32);
+}
+.info-box {
+    padding: 8px 12px;
+    background: rgba(101, 1, 7, 0.02);
+    border-radius: 0px 16px 16px 16px;
+}
+.info-box p {
+    color: #650107;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin: auto;
+}
+.chat-input input {
+    width: 80%;
+    border: none;
+}
+.chat-input button {
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient( 
+180deg
+, #FE858D 0%, #FE616B 100%);
+    width: 40px;
+    height: 40px;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+@media (min-width : 1000px) and (max-width : 1200px) {
+
+    .header-logo img {
+        width: 130px;
+    }
+    .header-menu {
+        margin-left: 0;
+    }
+    li.title-menu {
+        font-size: 14px;
+    }
+    .name {
+        font-size: 14px;
+    }
+    .price {
+        font-size: 14px;
+    }
+    .top-player__date h1 {
+        font-size: 14px;
+    }
+
+
+    li.inf-child {
+        position: relative;
+        width: 48%;
+    }
+    
+  
+}
+@media (min-width : 960px) and (max-width : 1000px) {
+
+    .header-logo img {
+        width: 130px;
+    }
+    .header-menu {
+        margin-left: 0;
+    }
+    li.title-menu {
+        font-size: 14px;
+    }
+    .name {
+        font-size: 14px;
+    }
+    .price {
+        font-size: 14px;
+    }
+    .top-player__date h1 {
+        font-size: 14px;
+    }
+
+    .top-player {
+        display: none;
+    }
+
+    .rp-all-container {
+        display: block;
+    }
+    li.inf-child {
+        position: relative;
+        width: 48%;
+    }
+  
+}
+@media (min-width : 720px) and (max-width : 960px) {
+.header{
+    display: none;
+}
+.header-1{
+    display: flex;
+}
+    
+    li.title-menu {
+        font-size: 14px;
+    }
+    .name {
+        font-size: 14px;
+    }
+    .price {
+        font-size: 14px;
+    }
+    .top-player__date h1 {
+        font-size: 14px;
+    }
+
+    .top-player {
+        display: none;
+    }
+  
+    .rp-all-container {
+        display: block;
+    }
+    li.inf-child {
+        position: relative;
+        width: 48%;
+    }
+  
 }
 
+@media (min-width : 576px) and (max-width : 720px) {
+    .header{
+        display: none;
+    }
+    .header-1{
+        display: flex;
+    }
+        
+        li.title-menu {
+            font-size: 14px;
+        }
+        .name {
+            font-size: 14px;
+        }
+        .price {
+            font-size: 14px;
+        }
+        .top-player__date h1 {
+            font-size: 14px;
+        }
+    
+        .top-player {
+            display: none;
+        }
+      
+        .rp-all-container {
+            display: block;
+        }
+        li.inf-child {
+            width: 49%;
+        }
+        .rp-boder {
+            width: 50%;
+        }
+      
+}
+ @media (min-width : 415px) and (max-width : 576px) {
+        .header{
+            display: none;
+        }
+        .header-1{
+            display: flex;
+        }
+            
+            li.title-menu {
+                font-size: 14px;
+            }
+            .name {
+                font-size: 14px;
+            }
+            .price {
+                font-size: 14px;
+            }
+            .top-player__date h1 {
+                font-size: 14px;
+            }
+        
+            .top-player {
+                display: none;
+            }
+          
+            .rp-all-container {
+                display: block;
+            }
+            li.inf-child {
+                width: 49%;
+            }
+       
+          
+        }
+
+        @media (max-width : 415px) {
+            .header{
+                display: none;
+            }
+            .header-1{
+                display: flex;
+            }
+                
+                li.title-menu {
+                    font-size: 14px;
+                }
+                .name {
+                    font-size: 14px;
+                }
+                .price {
+                    font-size: 14px;
+                }
+                .top-player__date h1 {
+                    font-size: 14px;
+                }
+            
+                .top-player {
+                    display: none;
+                }
+              
+                .rp-all-container {
+                    display: block;
+                }
+                li.inf-child {
+                    width: 49%;
+                }
+              
+            }

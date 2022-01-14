@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../lib/js/jquery-3.6.0.min.js"></script>
+    <script src="../lib/js/bootstrap.bundle.min.js"></script>
     <script src="../lib/js/script.js"></script>
     <script src="../lib/js/jquery.slim.min.js"></script>
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="../lib/css/base.css">
     <link rel="stylesheet" href="../lib/css/hire_players.css">
     <title>Thuê Người Chơi</title>
@@ -86,317 +88,236 @@
 
             </div>
         </div>
+        <div class="header-1"> 
+            <div class="header-logo">
+                <img src="../images/5me.onl-rp.svg" alt="">
+            </div>
+            <div class="header-text">
+                Thuê người chơi
+            </div>
+            <div class="header-tool">
+                <div class="icon-tool">
+                  <div class="icon-tool-3">
+                      <a href="">
+                          <img src="../images/rp-seach.svg" alt="" class="icon-st-rp">
+                      </a>
+                  </div>
+                  <div class="icon-tool-3">
+                      <a href="javascript:void(0)" class="link-chat">
+                          <img src="../images/rp-chat.svg" alt="" class="icon-st-rp">
+                      </a>
+                  </div>
+                  <div class="icon-tool-3">
+                      <a href="">
+                          <img src="../images/rp-tb.svg" alt="" class="icon-st-rp">
+                      </a>
+                  </div>
+    
+                  <div class="menu-responsive">
+                    <a href="javascript:void(0)"  class="menu-profile">
+                        <img src="../images/menu-respon.svg" alt="" class="icon-menu">
+                    </a>
+                </div>
+    
+                </div>
+                    <div class="content-menu">
+                        <div class="nen">
+                            
+                        </div>
+                        <div class="triangle">
+    
+                        </div>
+                        <ul class="personal-menu">
+                            <li class="menu-title"><a class="recharge-btn">Nạp tiền</a></li>
+                            <li class="menu-title"><a href=""> Rút tiền</a></li>
+                            <li class="menu-title"><a href="">Lịch sử giao dịch</a></li>
+                            <li class="menu-title"><a href="../vscode/frame.html">Cài đặt tài khoản</a></li>
+                            <li class="menu-title"><a href="">Đăng Xuất</a></li>
+                        </ul>
+    
+    
+                    </div>
+                </div>
+    
+    
+            </div>
     </div>
 
     <div class="body-container">
-        <div class="body-content">
-            <div class="all-menu-rp">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item">
-                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Thông tin chung</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Giới Thiệu</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Top Donate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-donate-tab" data-toggle="pill" href="#pills-donate" role="tab" aria-controls="pills-donate" aria-selected="false">Đánh giá</a>
-                      </li>
-                  </ul>
-                  <!-- Thông tin chung -->
-                  <div class="tab-content" id="pills-tabContent">     
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                        <div class="parameter-rp">
-                            <div class="parameter-title">
-                                <p>Số người theo dõi</p>
-                                <p class="parameter-number">
-                                    320
-                                </p>
-                            </div>
-                            <div class="ke">
-    
-                            </div>
-                            <div class="parameter-title">
-                                <p>Số giờ được thuê</p>
-                                <p class="parameter-number">
-                                    1826
-                                </p>
-                            </div>
-                             <div class="ke">
-                                
-                            </div>
-    
-                            <div class="parameter-title">
-                                <p>Tỷ lệ hoàn thành</p>
-                                <div class="parameter-ratio">
-                                    <div class="ratio-img">
-                                        <img src="../images/Bar-profile.svg" alt="">
+        <div class="rp-all-container">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">TOP Đại Gia</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Trò chuyện</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="rp-left-col">
+                        <div class="rp-left-row-1">
+                            <div class="rp-boder">
+                                <div class="left-letter">
+                                    TOP ĐẠI GIA TUẦN
+                                </div>
+                                <div class="left-box-img">
+                                    <div class="img-st">
+                                        <img src="../images/img-1.svg" alt="">
                                     </div>
-                                    <div class="radio-number">
-                                        <h2>96</h2><p>%</p>
+                                    <div class="img-st-2">
+                                        <img src="../images/top-nu-pink.svg" alt="">
+                                    </div>
+                                    <div class="img-st-3">
+                                        <img src="../images/top-boy-phone.svg" alt="">
+                                    </div>
+                                    <div class="left-move">
+                                        <p>+3</p>
+                                        <div class="move">
+                                            <img src="../images/move.svg" alt="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                             <div class="ke">
-                                
-                            </div>
-    
-                            <div class="parameter-title">
-                                <p>Thiết bị</p>
-                                <div class="parameter-img">
-                                    <div class="camera">
-                                        <img src="../images/camera.svg" alt="">
+                            <div class="rp-boder">
+                                <div class="left-letter">
+                                    TOP ĐẠI GIA THÁNG
+                                </div>
+                                <div class="left-box-img">
+                                    <div class="img-st">
+                                        <img src="../images/img-row2-1.svg" alt="">
                                     </div>
-                                    <div class="mic">
-                                        <img src="../images/microphone .svg" alt="">
+                                    <div class="img-st-2">
+                                        <img src="../images/img-row2-2.svg" alt="">
+                                    </div>
+                                    <div class="img-st-3">
+                                        <img src="../images/img-row2-3.svg" alt="">
+                                    </div>
+                                    <div class="left-move">
+                                        <p>+3</p>
+                                        <div class="move">
+                                            <img src="../images/move.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rp-boder">
+                                <div class="left-letter">
+                                    TOP ĐẠI GIA 
+                                </div>
+                                <div class="left-box-img">
+                                    <div class="img-st">
+                                        <img src="../images/img-row3-1.svg" alt="">
+                                    </div>
+                                    <div class="img-st-2">
+                                        <img src="../images/img-row2-1.svg" alt="">
+                                    </div>
+                                    <div class="img-st-3">
+                                        <img src="../images/top-nu-pink.svg" alt="">
+                                    </div>
+                                    <div class="left-move">
+                                        <p>+3</p>
+                                        <div class="move">
+                                            <img src="../images/move.svg" alt="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Giới thiệu -->
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                        <div class="left-col-1">
-                            <div class="left-content">
-                                <h3>Giới thiệu</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                <img src="../images/profile-cover.png" alt="">
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="rp-right-col">
+                        <div class="right-row-3">
+                            <div class="left-letter">
+                                TRÒ CHUYỆN
                             </div>
-                    </div>
-                    </div>
-                    <!-- Top Donate -->
-                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                        <div class="left-col-1">
-                            <div class="left-content">
-                                <h3>TOP DONATE</h3>
-                                <div class="top-donate">
-                                    <div class="top-name">
-                                        <img src="../images/donate-1.svg" alt="">
-                                        <img src="../images/vuong-profile.svg" alt="" class="top-vuong">
-                                        <p>Linh Trần</p>
+                            <div class="right-box-img">
+                                <div class="chat-box">
+                                    <div class="chat-row1">
+                                        <div class="chat-row1-col1">
+                                            <img src="../images/img-1.svg" alt="LinhTranDang" class="chat-img">
+                                        </div>
+                                        <div class="chat-info">
+                                            <div class="info-row1">
+                                                <p class="chat-name">LinhTranDang</p>
+                                                <p class="chat-time">12 phút trước</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore tempor incididunt ut labore
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
                                     </div>
-                                     <div class="top-price">
-                                         <h4>350,000<p>đ</p></h4>
-                                     </div>
-                                </div>
-        
-                                <div class="top-donate">
-                                    <div class="top-name">
-                                        <img src="../images/donate-2.svg" alt="">
-                                        <p>Toan Thien Tran</p>
+                                    <div class="chat-row1">
+                                        <div class="chat-row1-col1">
+                                            <img src="../images/chat-row2.svg" alt="LinhTranDang" class="chat-img">
+                                        </div>
+                                        <div class="chat-info">
+                                            <div class="info-row1">
+                                                <p class="chat-name">LinhTranDang</p>
+                                                <p class="chat-time">8 phút trước</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
                                     </div>
-                                     <div class="top-price">
-                                         <h4>240,000 <p>đ</p></h4>
-                                     </div>
-                                </div>
-        
-                                <div class="top-donate">
-                                    <div class="top-name">
-                                        <img src="../images/donate-3.svg" alt="">
-                                        <p>Hữu Long</p>
+                                    <div class="chat-row1">
+                                        <div class="chat-row1-col1">
+                                            <img src="../images/chat-row3.svg" alt="LinhTranDang" class="chat-img">
+                                        </div>
+                                        <div class="chat-info">
+                                            <div class="info-row1">
+                                                <p class="chat-name">LinhTranDang</p>
+                                                <p class="chat-time">8 phút trước</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
                                     </div>
-                                     <div class="top-price">
-                                         <h4>120,0000<p>đ</p></h4>
-                                     </div>
-                                </div>
-        
-                                <div class="top-donate">
-                                    <div class="top-name">
-                                        <img src="../images/donate-4.svg" alt="">
-                                        <p>Thùy Nguyễn</p>
+                                    <div class="chat-row1">
+                                        <div class="chat-row1-col1">
+                                            <img src="../images/chat-row4.svg" alt="LinhTranDang" class="chat-img">
+                                        </div>
+                                        <div class="chat-info">
+                                            <div class="info-row1">
+                                                <p class="chat-name">LinhTranDang</p>
+                                                <p class="chat-time">8 phút trước</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
                                     </div>
-                                     <div class="top-price">
-                                         <h4>64,000<p>đ</p></h4>
-                                     </div>
+                                    <div class="chat-input">
+                                        <input type="" placeholder="Nhập tin nhắn ....." class="chat-input__pl">
+                                        <button>
+                                            <a href="">
+                                                <img src="../images/btn-send.svg" alt="">
+                                            </a>
+                                        </button>
+                                    </div>  
                                 </div>
-        
-                                <div class="top-donate">
-                                    <div class="top-name">
-                                        <img src="../images/donate-5.svg" alt="">
-                                        <p>Duong Le</p>
-                                    </div>
-                                     <div class="top-price">
-                                         <h4>8,000<p>đ</p></h4>
-                                     </div>
-                                </div>
-                                
                             </div>
+                        </div>
                     </div>
-                    </div>
-                    <!-- Đánh Giá -->
-                    <div class="tab-pane fade" id="pills-donate" role="tabpanel" aria-labelledby="pills-donate-tab">
-                        <div class="left-col-1">
-                            <div class="left-content">
-                                <h3>ĐÁNH GIÁ</h3>
-                                <div class="evaluate">
-                                    <div class="profile-evaluate">
-                                        <div class="img-evaluate">
-                                            <img src="../images/eva1.svg" alt="">
-                                        </div>
-                                        <div class="inf-eva">
-                                            <div class="name-eva">
-                                                <p>Linh Trần</p>
-                                                <img src="../images/eva-tim.svg" alt="">
-                                            </div>
-                                            <div class="time-eva">
-                                                <p>19/01/2021 - 20:32</p>
-                                                <p>Thuê 2h</p>
-                                            </div>
-                                            <div class="letter-eva">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="ke-doc">
-                                    </div>
-        
-                                    <div class="profile-evaluate">
-                                        <div class="img-evaluate">
-                                            <img src="../images/eva2.svg" alt="">
-                                        </div>
-                                        <div class="inf-eva">
-                                            <div class="name-eva">
-                                                <p>Thiện Nguyễn</p>
-                                                <img src="../images/eva-tim.svg" alt="">
-                                            </div>
-                                            <div class="time-eva">
-                                                <p>19/01/2021 - 20:32</p>
-                                                <p>Thuê 2h</p>
-                                            </div>
-                                            <div class="letter-eva">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="ke-doc">
-                                    </div>
-        
-        
-                                    <div class="profile-evaluate">
-                                        <div class="img-evaluate">
-                                            <img src="../images/eva3.svg" alt="">
-                                        </div>
-                                        <div class="inf-eva">
-                                            <div class="name-eva">
-                                                <p>Jimmny Huỳnh</p>
-                                                <img src="../images/eva-tim.svg" alt="">
-                                            </div>
-                                            <div class="time-eva">
-                                                <p>19/01/2021 - 20:32</p>
-                                                <p>Thuê 2h</p>
-                                            </div>
-                                            <div class="letter-eva">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="ke-doc">
-                                    </div>
-        
-                                    <div class="profile-evaluate">
-                                        <div class="img-evaluate">
-                                            <img src="../images/eva4.svg" alt="">
-                                        </div>
-                                        <div class="inf-eva">
-                                            <div class="name-eva">
-                                                <p>Trần Phú</p>
-                                                <img src="../images/eva-tim.svg" alt="">
-                                            </div>
-                                            <div class="time-eva">
-                                                <p>19/01/2021 - 20:32</p>
-                                                <p>Thuê 2h</p>
-                                            </div>
-                                            <div class="letter-eva">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="ke-doc">
-                                    </div>
-        
-        
-                                    <div class="profile-evaluate">
-                                        <div class="img-evaluate">
-                                            <img src="../images/eva5.svg" alt="">
-                                        </div>
-                                        <div class="inf-eva">
-                                            <div class="name-eva">
-                                                <p>Linh Trần</p>
-                                                <img src="../images/eva-tim.svg" alt="">
-                                            </div>
-                                            <div class="time-eva">
-                                                <p>19/01/2021 - 20:32</p>
-                                                <p>Thuê 2h</p>
-                                            </div>
-                                            <div class="letter-eva">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                            </div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="ke-doc">
-                                    </div>
-        
-                                    <div class="profile-evaluate">
-                                        <div class="img-evaluate">
-                                            <img src="../images/eva6.svg" alt="">
-                                        </div>
-                                        <div class="inf-eva">
-                                            <div class="name-eva">
-                                                <p>Khánh Duy</p>
-                                                <img src="../images/eva-tim.svg" alt="">
-                                            </div>
-                                            <div class="time-eva">
-                                                <p>19/01/2021 - 20:32</p>
-                                                <p>Thuê 2h</p>
-                                            </div>
-                                            <div class="letter-eva">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="next-page">
-                                        <div class="arrow">
-                                            <a href="#" > < </a>
-                                        </div>
-                                        <div class="number-page">
-                                            <a href="#"> 1</a>
-        
-                                        </div>
-                                        <div class="number-page">
-                                            <a href="#"> 2</a>
-        
-                                        </div>
-                                        <div class="dot-page">
-                                            <a href="#" >...</a>
-        
-                                        </div>
-                                        <div class="number-page">
-                                            <a href="#"> 8</a>
-        
-                                        </div>
-                                        <div class="arrow">
-                                            <a href="#" > > </a>
-        
-                                        </div>
-                                    </div>
-                                    
-        
-                                </div>
-                                
-                            </div>
-                    </div>
-                    </div>
-                  </div>
-    
-            </div>
+                </div>
+              </div>
+        </div>
+        <div class="body-content">
             <div class="top-player">
                 <div class="top-player__date">
                     <h1>TOP ĐẠI GIA TUẦN</h1>
@@ -535,7 +456,7 @@
                                 <img src="../images/vip-player-ava2.svg" alt="">
                             </div>
                             <div class="bg-all">
-                                <h1>Linh Tran Thuy Dang</h1>
+                                <h1>Hoàng Nam Đặng</h1>
                                 <img src="../images/vip-player-tim.svg" alt="" class="tim">
                                 <ul class="img-game">
                                     <li class="img-game__a">
@@ -757,7 +678,7 @@
                                 <img src="../images/vip-player-ava2.svg" alt="">
                             </div>
                             <div class="bg-all">
-                                <h1>Linh Tran Thuy Dang</h1>
+                                <h1>Hoàng Nam Đặng</h1>
                                 <img src="../images/vip-player-tim.svg" alt="" class="tim">
                                 <ul class="img-game">
                                     <li class="img-game__a">
@@ -979,7 +900,7 @@
                                 <img src="../images/vip-player-ava2.svg" alt="">
                             </div>
                             <div class="bg-all">
-                                <h1>Linh Tran Thuy Dang</h1>
+                                <h1>Hoàng Nam Đặng</h1>
                                 <img src="../images/vip-player-tim.svg" alt="" class="tim">
                                 <ul class="img-game">
                                     <li class="img-game__a">
@@ -1201,7 +1122,7 @@
                                 <img src="../images/vip-player-ava2.svg" alt="">
                             </div>
                             <div class="bg-all">
-                                <h1>Linh Tran Thuy Dang</h1>
+                                <h1>Hoàng Nam Đặng</h1>
                                 <img src="../images/vip-player-tim.svg" alt="" class="tim">
                                 <ul class="img-game">
                                     <li class="img-game__a">
@@ -1377,5 +1298,95 @@
             
         </div>
     </div>
+    <div class="menu-content-responsive">
+        <div class="menu-responsive__all">
+            <div class="container-menu-rp">
+                <div class="menu-home">
+                    <div class="close-menu-rp" >
+                        <button >
+                            X
+                        </button>
+                    </div>
+                    <div class="menu-home-ct">
+                        <div class="text-ava-menu">
+                            <div class="img-ava-menu">
+                                <img src="../images/ava-profile.png" alt="">
+                                <div class="vuong-menu-rp">
+                                    <img src="../images/vuong-menu-rp.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="menu-pice-rp">
+                                <h1>HoangNguyen</h1>
+                                <h2>15,000 <p>đ</p></h2>
+                            </div>
+                        </div>
+                        <ul class="mn">
+                            <li class="mn-text"><a href="">Trang chủ</a></li>
+                            <li class="mn-text"><a href="">Thuê người chơi</a></li>
+                            <li class="mn-text"><a href="">Đang theo dõi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logout-menu">
+                    <button class="lg-out">Đăng Xuất</button>
+                </div>
+    
+            </div>
+        </div>
+    
+    </div>
+
 </body>
+<script>
+
+    $(document).ready(function(){
+      
+       $(".menu-profile").click(function(){
+           $(".menu-content-responsive").toggle();
+       });
+       $(".close-menu-rp").click(function(){
+           $(".menu-content-responsive").hide();
+       });
+   });
+</script>
+<script>
+    
+    $(document).ready(function(){
+  
+  //khi lăn chuột
+  $(window).scroll(function(){
+      // kiểm tra điều kiện > 300 thì mới addClass 
+      if ( $(window).scrollTop() > 50 ){
+  
+          $('.header').addClass('active');
+  
+      }
+      else{
+  
+          $('.header').removeClass('active');
+  
+      }
+  });
+  });
+  </script>
+  <script>
+      
+      $(document).ready(function(){
+    
+    //khi lăn chuột
+    $(window).scroll(function(){
+        // kiểm tra điều kiện > 300 thì mới addClass 
+        if ( $(window).scrollTop() > 50 ){
+    
+            $('.header-1').addClass('active');
+    
+        }
+        else{
+    
+            $('.header-1').removeClass('active');
+    
+        }
+    });
+    });
+    </script>
 </html>
