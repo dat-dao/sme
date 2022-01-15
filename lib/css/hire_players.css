@@ -540,6 +540,12 @@ li.inf-child {
     width: 120px;
     margin: 0 auto;
 }
+.cham-xanh {
+    width: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 17px;
+}
 .bg-all {
     display: flex;
     position: relative;
