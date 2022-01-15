@@ -529,6 +529,8 @@ hr {
 /* vip-players */
 li.inf-child {
     position: relative;
+    width: 100%;
+    max-width: 300px;
 }
 .inf-content {
     position: relative;
@@ -567,7 +569,6 @@ ul.inf-player-all {
     text-align: center;
     letter-spacing: 0.012em;
     color: #650107;
-    padding: 0px 75px;
 }
 .tim{
     margin-top: 4px;
@@ -651,6 +652,7 @@ ul#pills-tab {
     margin: 15px;
     padding: 10px 12px;
     display: none;
+    margin-top: 0;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #FE616B;
@@ -816,7 +818,7 @@ input::placeholder {
 @media (min-width : 1000px) and (max-width : 1200px) {
 
     .header-logo img {
-        width: 130px;
+        width: 150px;
     }
     .header-menu {
         margin-left: 0;
@@ -838,6 +840,7 @@ input::placeholder {
     li.inf-child {
         position: relative;
         width: 48%;
+
     }
     
   
@@ -945,6 +948,9 @@ input::placeholder {
         .rp-boder {
             width: 50%;
         }
+        .vip-player {
+            padding-left: 0;
+        }
       
 }
  @media (min-width : 415px) and (max-width : 576px) {
@@ -978,11 +984,15 @@ input::placeholder {
             li.inf-child {
                 width: 49%;
             }
+            .vip-player {
+                padding-left: 0;
+                margin-bottom: 52px;
+            }
        
           
         }
 
-        @media (max-width : 415px) {
+        @media (max-width : 416px) {
             .header{
                 display: none;
             }
@@ -1013,5 +1023,42 @@ input::placeholder {
                 li.inf-child {
                     width: 49%;
                 }
-              
+                .vip-player {
+                    padding-left: 0;
+                    margin-bottom: 42px;
+                }
+                .ft-eye {
+                    display: none;
+                }
+                .header-logo img {
+                    width: 120px;
+                }
+                .icon-tool-3 {
+                    margin-right: 10px;
+                }
+                img.icon-st-rp {
+                    width: 30px;
+                }
+                .left-letter {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                .body-content {
+                    background: #fff;
+                }
+                .bg-all {
+                    background: #F8F8F8;
+                }
+                .bg-all h1 {
+                    font-size: 14px;
+                }
+                .vip-player__head h1 {
+                    font-size: 14px;
+                }
+                .vip-player__head h1.vip-2 {
+                    font-size: 14px;
+                }
+                .ft-pice {
+                    background: #ffff;
+                }
             }
