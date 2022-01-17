@@ -300,6 +300,7 @@ li.mn-text a {
      color: black;
      display: flex;
      margin-left: 16px;
+     z-index: 10;
  }
  .personal-ava {
      position: relative;

@@ -1,0 +1,228 @@
+.body-container {
+    background: #FAFAFA;
+}
+.body-listbox {
+    width: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 40px 15px;
+}
+
+
+/* Listbox */
+div#v-pills-tab {
+    background: #FFFFFF;
+    border-radius: 24px 0px 0px 24px;
+    padding: 25px 34px;
+    padding-right: 0;
+    width: 25%;
+    height: 864px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    text-align: start;
+    color: #fff;
+    background:none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: #FE616B;
+    border-left: 4px solid;
+}
+
+.nav-pills .nav-link {
+    text-align: start;
+    background: 0 0;
+    border: 0;
+    border-radius: 0.25rem;
+}
+.nav-link{
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.87);
+}
+button#v-pills-information-tab {
+    display: flex;
+}
+button#v-pills-dashboard-tab {
+    display: flex;
+}
+button#v-pills-dashboard-tab img {
+    padding-right: 16px;
+}
+.nav-link img {
+    padding-right: 16px;
+}
+div#v-pills-tabContent {
+    margin-left: 24px;
+    width: 75%;
+}
+.nav-link:focus{
+    outline: none;
+}
+
+
+
+/* Dashboard */
+.turnover-head{
+    display: flex;
+    align-items: center;
+    
+}
+.head-box {
+    background: #FE616B;
+    border-radius: 24px;
+    padding: 16px 24px;
+    margin-right: 16px;
+    width: 265px;
+    box-shadow: 0px 5px 5px #fe616b99;
+}
+.head-box h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.72);
+    
+}
+.head-box h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.012em;
+    color: #FFFFFF;
+}
+.head-box h2 span {
+    font-size: 12px;
+}
+
+.head-rank {
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+.head-below {
+    padding-top: 16px;
+    padding-right: 30px;
+}
+.head-below h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(254, 97, 107, 0.72);
+}
+.head-below h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.012em;
+    color: #FE616B;
+
+}
+.tunover-body {
+    background: #FFFFFF;
+    border-radius: 0px 24px 24px 0px;
+    padding: 32px 78px;
+    margin-top: 32px;
+}
+.tunover-body h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.024em;
+    color: #650107;
+    margin-bottom: 32px;
+}
+.board-statistical {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.board-statistical h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.6);
+    margin: 0;
+
+}
+ul#pills-tab {
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 8px 0px;
+
+}
+.nav-item-2 .nav-link-1.active, .nav-pills .show>.nav-link {
+    text-align: start;
+    color: #fff;
+    background: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+    border-radius: 8px 0px 0px 8px;
+    padding: 10px 40px;
+
+}
+.nav-item-3 .nav-link-1.active, .nav-pills .show>.nav-link {
+    text-align: start;
+    color: #fff;
+    background: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+    border-radius: 0px 8px 8px 0px;
+    padding: 10px 40px;
+
+}
+.nav-link-1 {
+    cursor: pointer;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.87);
+    padding: 10px 40px;
+}
+.dashboard-day img {
+    width: 100%;
+    max-width: 800px;
+}
+.dashboard-month img {
+    width: 100%;
+    max-width: 800px;
+}
