@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="../lib/css/base.css">
     <link rel="stylesheet" href="../lib/css/header.css">
+    <link rel="stylesheet" href="../lib/css/dashboard-information.css">
     <link rel="stylesheet" href="../lib/css/dashboard.css">
     <title>Dashboard</title>
 </head>
@@ -209,7 +210,119 @@
 
 
                   </div>
-                  <div class="tab-pane fade" id="v-pills-information" role="tabpanel" aria-labelledby="v-pills-information-tab">...</div>
+                  <div class="tab-pane fade" id="v-pills-information" role="tabpanel" aria-labelledby="v-pills-information-tab">
+                      <div class="body-information">
+                        <div class="inf-header">
+                                <div class="all-name">
+                                  <div class="avatar-upload">
+                                      <div class="avatar-edit">
+                                          <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                          <label for="imageUpload" class="camera-ava"><img src="../images/frame-camera-profile.svg" alt=""></label>
+                                      </div>
+                                      <div class="avatar-preview">
+                                          <div id="imagePreview" style="background-image: url(https://i.pinimg.com/736x/24/21/85/242185eaef43192fc3f9646932fe3b46.jpg);">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="ava-name">
+                                      <h1>Nguyễn Đình Trần Thiện</h1>
+                                      <p>ThienNguyen0324</p>
+                                  </div>
+                                </div>
+                                <div class="all-logo">
+                                    <a href=""><img src="../images/inf-logo-fb.svg" alt=""></a>
+                                    <a href=""><img src="../images/inf-logo-ig.svg" alt=""></a>
+                                    <a href=""><img src="../images/inf-logo-tiktok.svg" alt=""></a>
+                                </div>
+                        </div>
+                        <div class="inf-account">
+                            <div class="acconut-h1">
+                                <div class="holder">
+                                    <h1 class="account-text">Chủ Tài Khoản</h1>
+                                    <input type="text" placeholder="Nguyễn Đình Trần Thiện">
+                                </div>
+                                <div class="holder">
+                                    <h1 class="account-text">Nickname</h1>
+                                    <input type="text" placeholder="ThienNguyen0324">
+                                </div>
+                            </div>
+                            <div class="acconut-h2">
+                                <div class="holder">
+                                    <h1 class="account-text">Chủ Tài Khoản</h1>
+                                    <input type="text" placeholder="Nguyễn Đình Trần Thiện">
+                                </div>
+                                <div class="holder">
+                                    <h1 class="account-text">Nickname</h1>
+                                    <select  name="cars" id="cars">
+                                        <option value="VN">Ngân Hàng Á Châu ACB</option>
+                                        <option value="saab">BIDV</option>
+                                        <option value="opel">MB</option>
+                                        <option value="audi">BANK</option>
+                                    </select> 
+                                </div>
+                            </div>
+                            <div class="inf-link__url">
+                                <h1>Link URL</h1>
+                                <label class="inf-check">
+                                    <a href="">https://www.google.com/?gws_rd=ssl</a>
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                  </label>
+                                  <label class="inf-check">
+                                    <a href="">https://www.google.com/?gws_rd=ssl</a>
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            
+                            </div>
+                        </div>
+                        <div class="inf-game">
+                            <div class="all-game">
+                                <h1>Game</h1>
+                                <div class="content-game">
+                                    <div class="box-img__game">
+                                        <ul>
+                                            <li class="li-game">
+                                              <input type="checkbox" id="myCheckbox1" />
+                                              <label class="lb-img" for="myCheckbox1"><img src="../images/game-1.png" /></label>
+                                              <p>Call of Duty</p>
+                                            </li>
+                                            <li class="li-game">
+                                              <input type="checkbox" id="myCheckbox2" />
+                                              <label class="lb-img" for="myCheckbox2"><img src="../images/game-2.png" /></label>
+                                              <p>Call of Duty</p>
+                                            </li>
+                                            <li class="li-game">
+                                              <input type="checkbox" id="myCheckbox3" />
+                                              <label class="lb-img" for="myCheckbox3"><img src="../images/game-3.png" /></label>
+                                              <p>Call of Duty</p>
+                                            </li>
+                                            <li class="li-game">
+                                                <input type="checkbox" id="myCheckbox4" />
+                                                <label class="lb-img" for="myCheckbox4"><img src="../images/game-4.png" /></label>
+                                                <p>Call of Duty</p>
+                                              </li>
+                                              <li class="li-game">
+                                                <input type="checkbox" id="myCheckbox5" />
+                                                <label class="lb-img" for="myCheckbox5"><img src="../images/game-5.png" /></label>
+                                                <p>Call of Duty</p>
+                                              </li>
+                                              <li class="li-game">
+                                                <input type="checkbox" id="myCheckbox6" />
+                                                <label class="lb-img" for="myCheckbox6"><img src="../images/game-6.png" /></label>
+                                                <p>Call of Duty</p>
+                                              </li>
+                                          </ul>
+                                          <div class="name-title">
+                                              <h1>Danh Hiệu</h1>
+                                              <input type="text" placeholder="">
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
                   <div class="tab-pane fade" id="v-pills-withdrawal" role="tabpanel" aria-labelledby="v-pills-withdrawal-tab">...</div>
                   <div class="tab-pane fade" id="v-pills-history" role="tabpanel" aria-labelledby="v-pills-history-tab">...</div>
                   <div class="tab-pane fade" id="v-pills-like" role="tabpanel" aria-labelledby="v-pills-like-tab">...</div>
