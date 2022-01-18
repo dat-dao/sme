@@ -366,9 +366,10 @@ input[type="checkbox"][id^="myCheckbox"] {
 
 /* Box upload*/
 .upload__box {
-      padding-top: 8px;
-      display: flex;
-    }
+    padding-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
 .upload__inputfile {
         width: .1px;
         height: .1px;
@@ -421,6 +422,7 @@ input[type="checkbox"][id^="myCheckbox"] {
 }
 ul.up-img {
     display: flex;
+    flex-wrap: wrap;
 }
 li.up-img__a {
     margin-right: 8px;

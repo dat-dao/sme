@@ -1,0 +1,218 @@
+.history-container{
+
+}
+.history-container h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.024em;
+    color: #650107;
+}
+.seach{
+    background: #fff;
+    border-radius: 24px;
+    margin-top: 24px;
+    box-shadow: 2px 2px 2px 2px #cccccc3b;
+}
+.seach-container{
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}   
+input.text-seach {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 14px 16px;
+    width: 100%;
+}
+input.text-seach:focus{
+    outline: none;
+}
+.text-seach::placeholder{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.32);
+}
+
+select#select-seach {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.32);
+    margin-right: 16px;
+    width: 100%;
+}
+#select-seach:focus{
+    outline: none;
+}
+button.img-seach {
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+    box-shadow: 0px 6px 16px rgb(254 97 107 / 16%);
+    border-radius: 8px;
+    border: none;
+    padding: 14px;
+}
+.all-select {
+    width: 30%;
+    display: flex;
+}
+.ip-seach {
+    width: 70%;
+    padding-right: 16px;
+}
+
+/* Table */
+.content-table{
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    border-radius:24px 24px 0px 0px;
+    overflow: hidden;
+}
+.content-table thead tr {
+    background: rgba(254, 97, 107, 0.06);
+    border-radius: 24px 24px 0px 0px;
+    text-align: left;
+}
+.content-table thead tr th{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.012em;
+text-transform: capitalize;
+color: #FE616B;
+padding: 14px;
+}
+.th-date{
+    text-align: center;
+}
+.td-date{
+text-align: left !important;
+color: rgba(101, 1, 7, 0.6) !important;
+}
+.td-text{
+    display: flex;
+    text-align: left !important;
+    color: rgba(101, 1, 7, 0.6) !important; 
+    padding-left: 14px !important;
+    display: -webkit-inline-box;
+}
+.tick-history{
+    cursor: pointer;
+}
+.content-table tbody{
+    background: #FFFFFF;
+}
+.content-table tbody tr td {
+    text-align: end;
+    padding: 19px 20px 13px 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.87);
+}
+.all-table{
+    white-space: nowrap;
+    background: #FFFFFF;
+    border-radius: 24px 24px 0 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    margin-top: 25px;
+    box-shadow: 2px 2px 2px 2px #cccccc3b;
+}
+
+.footer-history {
+    padding: 24px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 0 0 24px 24px;
+}
+.next-page ul {
+    display: flex;
+}
+.next-page ul li {
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: 8px;
+}
+.next-page ul li:hover {
+    border: 1px solid #FE616B;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #FE616B;
+    cursor: pointer;
+}
+.sl-player p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    color: #FE616B;
+}
+.sl-player p span {
+    color: rgba(101, 1, 7, 0.38);
+}
+tbody tr {
+    border-bottom: 1px solid #F2F2F2;
+}
+span.more {
+    display: none;
+}   
+
+
+/*  */
+.withdrawal{
+    padding: 32px 79px;
+    background: #FFFFFF;
+    border-radius: 0px 24px 24px 0px;
+}
+.wt-h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.87);
+}
+.wrap {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.87);
+}
+.upcard{
+    display: none;
+}

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../lib/css/base.css">
     <link rel="stylesheet" href="../lib/css/header.css">
     <link rel="stylesheet" href="../lib/css/dashboard-information.css">
+    <link rel="stylesheet" href="../lib/css/dashboard-history.css">
     <link rel="stylesheet" href="../lib/css/dashboard.css">
     <title>Dashboard</title>
 </head>
@@ -158,7 +159,7 @@
                   <button class="nav-link" id="v-pills-setting-tab" data-bs-toggle="pill" data-bs-target="#v-pills-setting" type="button" role="tab" aria-controls="v-pills-setting" aria-selected="false"><img src="../images/dashboard-listbox-7.svg" alt="">Cài đặt</button>
                 </div>
                 <div class="tab-content" id="v-pills-tabContent">
-                  <div class="tab-pane fade show active" id="v-pills-dashboard" role="tabpanel" aria-labelledby="v-pills-dashboard-tab">
+                    <div class="tab-pane fade show active" id="v-pills-dashboard" role="tabpanel" aria-labelledby="v-pills-dashboard-tab">
                     <div class="body-turnover">
                         <div class="turnover-head">
                             <div class="head-box">
@@ -209,8 +210,8 @@
                     </div>
 
 
-                  </div>
-                  <div class="tab-pane fade" id="v-pills-information" role="tabpanel" aria-labelledby="v-pills-information-tab">
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-information" role="tabpanel" aria-labelledby="v-pills-information-tab">
                       <div class="body-information">
                         <div class="inf-header">
                                 <div class="all-name">
@@ -385,12 +386,200 @@
                             </div>
                         </div>
                       </div>
-                  </div>
-                  <div class="tab-pane fade" id="v-pills-withdrawal" role="tabpanel" aria-labelledby="v-pills-withdrawal-tab">...</div>
-                  <div class="tab-pane fade" id="v-pills-history" role="tabpanel" aria-labelledby="v-pills-history-tab">...</div>
-                  <div class="tab-pane fade" id="v-pills-like" role="tabpanel" aria-labelledby="v-pills-like-tab">...</div>
-                  <div class="tab-pane fade" id="v-pills-tutorial" role="tabpanel" aria-labelledby="v-pills-tutorial-tab">...</div>
-                  <div class="tab-pane fade" id="v-pills-setting" role="tabpanel" aria-labelledby="v-pills-setting-tab">...</div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-withdrawal" role="tabpanel" aria-labelledby="v-pills-withdrawal-tab">
+                          
+                        <div class="withdrawal">
+                            <h1 class="wt-h1">Chọn Hình Thức Rút</h1>
+                            <div class="wrap">
+                                <input type="radio" checked="checked" name="radio" class="but">Chuyển Khoản</input>
+                                <div class="upcard">
+                                    <div class="acconut-h1">
+                                        <div class="holder">
+                                            <h1 class="account-text">Tài Khoản</h1>
+                                            <input type="text" placeholder="Nhập Tài Khoản ">
+                                        </div>
+                                        <div class="holder">
+                                            <h1 class="account-text">Số Tiền</h1>
+                                            <input type="text" placeholder="Nhập số tiền">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                                <div class="wrap">
+                                <input type="radio" checked="checked" name="radio" class="but">Thẻ cào</input>
+                                <div class="upcard">
+                                    
+                                </div>
+                                </div>
+                        </div> 
+
+                        
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-history" role="tabpanel" aria-labelledby="v-pills-history-tab">
+                        <div class="history-container">
+                            <h1>Lịch Sử Giao Dịch</h1>
+                            <div class="seach">
+                                    <div class="seach-container">
+                                        <div class="ip-seach">
+                                            <input type="text" placeholder="Từ khóa tìm kiếm" class="text-seach">
+                                        </div>
+                                        <div class="all-select">
+                                            <select name="" id="select-seach"  >
+                                                <option value="">Loại giao dịch</option>
+                                                <option value="">Nạp tiền</option>
+                                                <option value="">Donate</option>
+                                                <option value=""></option>
+                                            </select>
+                                            <button class="img-seach">
+                                                <img src="../images/history-btn-seach.svg" alt="">
+                                            </button>
+                                        </div>
+                                    </div>
+                            </div>
+                <div class="all-table">
+                    <table class="content-table">
+                        <thead>
+                            <tr>
+                                <th class="th-date">Ngày/Giờ</th>
+                                <th>Loại Giao Dịch</th>
+                                <th>Số Dư Trước Giao Dịch</th>
+                                <th>Số Tiền Giao Dịch</th>
+                                <th>Số Dư Sau Giao Dịch</th>
+                                <th>Lời Nhắn</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td-date">05/12/2020 - 08:40</td>
+                                <td>Nạp tiền</td>
+                                <td>160,000</td>
+                                <td>120,000</td>
+                                <td >120,000</td>
+                                <td class="td-text">
+                                    Lorem ipsum dolor sit amet, consadq
+                                    <span class="dot">...</span>
+                                     <span class="more">
+                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet 
+                                    </span> 
+                                     <div class="tick-history">
+                                         <img src="../images/tick-history.svg" alt="">
+                                     </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-date">05/12/2020 - 08:40</td>
+                                <td>Nạp tiền</td>
+                                <td>160,000</td>
+                                <td>120,000</td>
+                                <td >120,000</td>
+                                <td class="td-text">
+                                    Lorem ipsum dolor sit amet, consadq
+                                    <span class="dot">...</span>
+                                     <span class="more">
+                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet 
+                                    </span> 
+                                     <div class="tick-history">
+                                         <img src="../images/tick-history.svg" alt="">
+                                     </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-date">05/12/2020 - 08:40</td>
+                                <td>Nạp tiền</td>
+                                <td>160,000</td>
+                                <td>120,000</td>
+                                <td >120,000</td>
+                                <td class="td-text">
+                                    Lorem ipsum dolor sit amet, consadq
+                                    <span class="dot">...</span>
+                                     <span class="more">
+                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet 
+                                    </span> 
+                                     <div class="tick-history">
+                                         <img src="../images/tick-history.svg" alt="">
+                                     </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-date">05/12/2020 - 08:40</td>
+                                <td>Nạp tiền</td>
+                                <td>160,000</td>
+                                <td>120,000</td>
+                                <td >120,000</td>
+                                <td class="td-text">
+                                    Lorem ipsum dolor sit amet, consadq
+                                    <span class="dot">...</span>
+                                     <span class="more">
+                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet 
+                                    </span> 
+                                     <div class="tick-history">
+                                         <img src="../images/tick-history.svg" alt="">
+                                     </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                </div>
+                <div class="footer-history">
+                    <div class="sl-player">
+                        <p>12 <span>/40 người chơi</span></p>
+                    </div>
+                    <div class="next-page">
+                        <ul>
+                            <li><a href=""><</a></li>
+                            <li><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">...</a></li>
+                            <li><a href="">8</a></li>
+                            <li><a href="">></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-content-responsive">
+                    <div class="menu-responsive__all">
+                        <div class="container-menu-rp">
+                            <div class="menu-home">
+                                <div class="close-menu-rp" >
+                                    <button >
+                                        X
+                                    </button>
+                                </div>
+                                <div class="menu-home-ct">
+                                    <div class="text-ava-menu">
+                                        <div class="img-ava-menu">
+                                            <img src="../images/ava-profile.png" alt="">
+                                            <div class="vuong-menu-rp">
+                                                <img src="../images/vuong-menu-rp.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="menu-pice-rp">
+                                            <h1>HoangNguyen</h1>
+                                            <h2>15,000 <p>đ</p></h2>
+                                        </div>
+                                    </div>
+                                    <ul class="mn">
+                                        <li class="mn-text"><a href="">Trang chủ</a></li>
+                                        <li class="mn-text"><a href="">Thuê người chơi</a></li>
+                                        <li class="mn-text"><a href="">Đang theo dõi</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="logout-menu">
+                                <button class="lg-out">Đăng Xuất</button>
+                            </div>
+                
+                        </div>
+                    </div>
+                
+                </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-like" role="tabpanel" aria-labelledby="v-pills-like-tab">...</div>
+                    <div class="tab-pane fade" id="v-pills-tutorial" role="tabpanel" aria-labelledby="v-pills-tutorial-tab">...</div>
+                    <div class="tab-pane fade" id="v-pills-setting" role="tabpanel" aria-labelledby="v-pills-setting-tab">...</div>
                 </div>
               </div>
         </div>
@@ -462,5 +651,24 @@ function ImgUpload() {
     $(this).parent().parent().remove();
   });
 }
+</script>
+<script>
+    $(document).ready(function(){
+        $(".tick-history").click(function(){
+            $(this).prev().toggle();
+            $(this).siblings('.dot').toggle();
+            
+        });
+        
+    })
+</script>
+<script>
+$(".but").click (function(){
+  // Close all open windows
+  $(".upcard").stop().slideUp(300); 
+  // Toggle this window open/close
+  $(this).next(".upcard").stop().slideToggle(300);
+
+});
 </script>
 </html>
