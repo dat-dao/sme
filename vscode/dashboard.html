@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../lib/css/header.css">
     <link rel="stylesheet" href="../lib/css/dashboard-information.css">
     <link rel="stylesheet" href="../lib/css/dashboard-history.css">
+    <link rel="stylesheet" href="../lib/css/dashboard-like.css">
     <link rel="stylesheet" href="../lib/css/dashboard.css">
     <title>Dashboard</title>
 </head>
@@ -461,14 +462,14 @@
                                             <label class="lb-receive">Email
                                                 <input type="radio" name="r" id="radio1" checked="checked" onclick="enableTxtBox1()">
                                                 <span class="sp-receive"></span>
-                                                <input type="text" id="text1" disabled="disabled" placeholder="Volume m^3">
+                                                <input type="text" id="text1" disabled="disabled" placeholder="daodat2911@gmail.com">
                                             </label>
                                             </li>
                                             <li>
                                             <label class="lb-receive">Số điện thoại
                                                 <input type="radio" name="r" id="radio2" onclick="enableTxtBox1()">
                                                 <span class="sp-receive"></span>
-                                                <input type="text" id="text2" disabled="disabled" placeholder="Lenght"> 
+                                                <input type="text" id="text2" disabled="disabled" placeholder="09999999999"> 
                                             </label>
                                             </li>
 
@@ -640,7 +641,23 @@
                 </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-like" role="tabpanel" aria-labelledby="v-pills-like-tab">...</div>
+                    <div class="tab-pane fade" id="v-pills-like" role="tabpanel" aria-labelledby="v-pills-like-tab">
+                        <div class="like-me">
+                            <ul class="nav nav-pills mb-3" id="pill-like" role="tablist">
+                                <li class="nav-item">
+                                  <a class="nav-like active" id="pills-like-tab" data-toggle="pill" href="#pills-like" role="tab" aria-controls="pills-home" aria-selected="true">Những người đã thuê tôi</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-like" id="pills-folow-tab" data-toggle="pill" href="#pills-folow" role="tab" aria-controls="pills-profile" aria-selected="false">Những người theo dõi tôi</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-like" role="tabpanel" aria-labelledby="pills-like-tab">...</div>
+                                <div class="tab-pane fade" id="pills-folow" role="tabpanel" aria-labelledby="pills-folow-tab">aaaaa</div>
+                              </div>
+                        </div>
+
+                    </div>
                     <div class="tab-pane fade" id="v-pills-tutorial" role="tabpanel" aria-labelledby="v-pills-tutorial-tab">...</div>
                     <div class="tab-pane fade" id="v-pills-setting" role="tabpanel" aria-labelledby="v-pills-setting-tab">...</div>
                 </div>

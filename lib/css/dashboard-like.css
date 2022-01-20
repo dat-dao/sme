@@ -1,0 +1,58 @@
+.like-me{
+    padding: 32px 78px;
+    background: #FFFFFF;
+    border-radius: 0px 24px 24px 0px;
+}
+.nav-like{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.32);
+ 
+}
+a#pills-like-tab {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    padding-right: 24px;
+}
+a#pills-folow-tab {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    padding-left: 24px;
+}
+.nav-pills .nav-like.active, .nav-pills .show>.nav-like {
+    text-align: start;
+    color: rgba(101, 1, 7, 0.87);
+    background: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #FE616B;
+}
+li.nav-item {
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(254, 97, 107, 0.12);
+}
+.nav-like:active, .nav-like:focus, .nav-like:hover {
+    text-decoration: none;
+    outline: 0;
+    color:  rgba(101, 1, 7, 0.32);
+}

@@ -474,3 +474,9 @@ input#text2:focus {
 .lb-receive:focus{
     color: rgba(101, 1, 7, 0.6);
 }
+#text1::placeholder{
+    color: rgba(101, 1, 7, 0.32);
+}
+#text2::placeholder{
+    color: rgba(101, 1, 7, 0.32);
+}
