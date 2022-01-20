@@ -456,9 +456,14 @@
                                     </div>
                                     <div class="network">
                                         <h1>Nhận Qua</h1>
-                                        <ul class="card-network">
+                                        <ul class="receive">
                                             <li>
-
+                                                <input type="radio" name="r" id="radio1" checked="checked" onclick="enableTxtBox1()">
+                                                <input type="text" id="text1" disabled="disabled" placeholder="Volume m^3">
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="r" id="radio2" onclick="enableTxtBox1()">
+                                                <input type="text" id="text2" disabled="disabled" placeholder="Lenght"> 
                                             </li>
 
                                         </ul>
@@ -722,5 +727,34 @@ $(".but").click (function(){
   $(this).next(".upcard").stop().slideToggle(300);
 
 });
+</script>
+<!-- Nhận qua -->
+<script>
+ function enableTxtBox1()
+        {
+            document.getElementById("text1").disabled = !document.getElementById("radio1").checked;
+            document.getElementById("text2").disabled = document.getElementById("radio1").checked;
+          
+        }
+
+        function enableTxtBox()
+        {
+            if (document.getElementById("radio1").checked)
+            {
+                document.getElementById("text1").disabled = false;
+                document.getElementById("text2").disabled = true;
+            }
+            else if (document.getElementById("radio2").checked)
+            {
+                document.getElementById("text1").disabled = true;
+                document.getElementById("text2").disabled = false;
+            }
+        }
+</script>
+<script>
+    $('#other-field').focus(function() {
+  $('#other').prop("checked", true);
+});
+
 </script>
 </html>
