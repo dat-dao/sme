@@ -1,0 +1,65 @@
+.setting{
+    background: #FFFFFF;
+border-radius: 0px 24px 24px 0px;
+padding: 32px 78px;
+}
+.time-rent {
+    width: 100%;
+    max-width: 388px;
+}
+.time-rent__a{
+    display: flex;
+    justify-content: space-between;
+}
+button#sub {
+    border: 1px solid #FE616B;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: none;
+    width: 24px;
+    height: 24px;
+    color: #FE616B;
+    cursor: pointer;
+}
+button#add {
+    border: 1px solid #FE616B;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: none;
+    width: 24px;
+    height: 24px;
+    color: #FE616B;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
+input.quantity {
+    width: 100%;
+    padding: 12px 16px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+input.quantity:focus {
+   outline: none;
+}
+.ip-pl-mn {
+    position: relative;
+}
+.time-ip{
+    top: 14px;
+    right: 16px;
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.6);
+}
+/* tunr-on */
+

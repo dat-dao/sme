@@ -56,3 +56,94 @@ li.nav-item {
     outline: 0;
     color:  rgba(101, 1, 7, 0.32);
 }
+
+/* Những người đã thuê tôi */
+.inf-rent{
+    padding: 20px 0px;
+}
+li.rent-current {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 12px;
+    margin-top: 12px;
+}
+.rent-name {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.all-rent__1 {
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+.all-rent__1 h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.87);
+    margin-left: 12px;
+    margin-bottom: 0;
+    margin-right: 132px;
+}
+.all-rent__1 h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.87);
+    margin-bottom: 0;
+    margin-left: 12px;
+}
+#fix {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+/* Hướng Dẫn  */
+
+.tutorial {
+    padding: 32px 78px;
+    background: #FFFFFF;
+    border-radius: 0px 24px 24px 0px;
+}
+.tutorial h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.87);
+}
+.tutorial ul {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.87);
+}
+.tutorial ul li {
+    padding-top: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.87);
+}
