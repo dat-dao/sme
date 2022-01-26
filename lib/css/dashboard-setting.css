@@ -62,4 +62,75 @@ input.quantity:focus {
     color: rgba(101, 1, 7, 0.6);
 }
 /* tunr-on */
-
+.tunr-on {
+    margin-top: 16px;
+}
+.check-time {
+    display: flex;
+    flex-wrap: wrap;
+}
+  .cat{
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 86px;
+    height: 48px;
+    margin-right: 12px;
+  }
+  
+  .cat label {
+    float: left; line-height: 3.0em;
+    width: 86px; height: 48px;
+  }
+  
+  .cat label span {
+    text-align: center;
+    padding: 3px 0;
+    display: block;
+  }
+  
+  .cat label input {
+    position: absolute;
+    display: none;
+    color: #fff !important;
+  }
+  /* selects all of the text within the input element and changes the color of the text */
+  .cat label input + span {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.87);
+}
+  
+  /* This will declare how a selected input will look giving generic properties */
+  .cat input:checked + span {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  
+  
+  /*
+  This following statements selects each category individually that contains an input element that is a checkbox and is checked (or selected) and chabges the background color of the span element.
+  */
+  
+  .action input:checked + span {
+    width: 86px;
+    height: 48px;
+    background: rgba(254, 97, 107, 0.04);
+    border: 1px solid #FE616B;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.012em;
+    color: rgba(254, 97, 107, 0.87);
+}

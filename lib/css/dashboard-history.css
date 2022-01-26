@@ -249,6 +249,14 @@ input.but {
 /* checkbox img */
 .card-network{
     display: flex;
+    flex-wrap: wrap;
+}
+ul#pill-like {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: center;
+    flex-wrap: nowrap;
 }
 input[type="radio"][id^="cb"] {
     display: none;

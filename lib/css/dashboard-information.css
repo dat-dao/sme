@@ -6,7 +6,7 @@ h1{
     line-height: 20px;
     letter-spacing: 0.012em;
     text-transform: capitalize;
-    color: rgba(101, 1, 7, 0.87);
+    
 }
 
 .body-information {
@@ -460,4 +460,193 @@ li.up-img__a {
 }
 .save:focus{
     outline: none;
+}
+@media (min-width : 960px) and (max-width : 1200px) {
+    .inf-game {
+        margin-top: 22px;
+        padding: 32px 32px;
+    }
+}
+@media (min-width : 720px) and (max-width : 960px) {
+
+}
+@media (min-width : 576px) and (max-width : 720px) {
+    .acconut-h1 {
+        flex-direction: column;
+    }
+    .holder {
+        width: 100%;
+    }
+    .acconut-h2 {
+        flex-direction: column;
+    }
+    .ava-name h1 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .avatar-preview {
+        height: 58px;
+        width: 58px;
+        padding: 5px;
+    }
+    .camera-ava {
+        width: 25px;
+        height: 25px;
+    }
+    label.camera-ava img {
+        width: 25px;
+    }
+    .all-logo a img {
+        width: 48px;
+    }
+    div#v-pills-tabContent {
+        padding: 0;
+    }
+    .inf-header {
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fff;
+    }
+}
+@media (min-width :415px) and (max-width :  576px) {
+    .acconut-h1 {
+        flex-direction: column;
+    }
+    .holder {
+        width: 100%;
+    }
+    .acconut-h2 {
+        flex-direction: column;
+    }
+    .ava-name h1 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .avatar-preview {
+        height: 58px;
+        width: 58px;
+        padding: 5px;
+    }
+    .camera-ava {
+        width: 25px;
+        height: 25px;
+    }
+    label.camera-ava img {
+        width: 25px;
+    }
+    .all-logo a img {
+        width: 35px;
+    }
+    div#v-pills-tabContent {
+        padding: 0;
+    }
+    .inf-header {
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fff;
+    }
+    .ava-name p {
+        font-size: 14px;
+    }
+    .inf-account {
+        margin-top: 16px;
+        padding: 16px;
+        border-radius: 0;
+    }
+    .inf-game {
+        margin-top: 16px;
+        padding: 16px;
+        border-radius: 0;
+    }
+    .li-game {
+        width: 47%;
+    }
+    .inf-introduce {
+        padding: 16px;
+        margin-top: 16px;
+        border-radius: 0;
+    }
+    button.save {
+        background: linear-gradient( 180deg, #FE858D 0%, #FE616B 100%);
+        box-shadow: 0px 6px 24px rgb(254 97 107 / 16%);
+        border-radius: 8px;
+        width: 100%;
+    }
+    .footer-infomation {
+        padding-right: 0;
+    }
+}
+@media (max-width : 414.4px)  {
+    .acconut-h1 {
+        flex-direction: column;
+    }
+    .holder {
+        width: 100%;
+    }
+    .acconut-h2 {
+        flex-direction: column;
+    }
+    .ava-name h1 {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .avatar-preview {
+        height: 58px;
+        width: 58px;
+        padding: 5px;
+    }
+    .camera-ava {
+        width: 25px;
+        height: 25px;
+    }
+    label.camera-ava img {
+        width: 25px;
+    }
+    .all-logo a img {
+        width: 35px;
+    }
+    div#v-pills-tabContent {
+        padding: 0;
+    }
+    .inf-header {
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fff;
+    }
+    .ava-name p {
+        font-size: 12px;
+    }
+    .inf-account {
+        margin-top: 16px;
+        padding: 16px;
+        border-radius: 0;
+    }
+    .inf-game {
+        margin-top: 16px;
+        padding: 16px;
+        border-radius: 0;
+    }
+    .li-game {
+        width: 100%;
+    }
+    .inf-introduce {
+        padding: 16px;
+        margin-top: 16px;
+        border-radius: 0;
+    }
+    .box-img__game {
+        text-align: center;
+    }
+    .ava-name {
+        padding-left: 7px;
+    }
 }
